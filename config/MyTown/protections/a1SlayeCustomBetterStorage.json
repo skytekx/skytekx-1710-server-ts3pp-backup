@@ -1,0 +1,89 @@
+{
+  "modid": "betterstorage",
+  "segments": [
+    {
+      "class": "net.mcft.copy.betterstorage.tile.crate.TileCrate",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileReinforcedChest",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileLocker",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileBackpack",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileEnderBackpack",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileCardboardBox",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileReinforcedLocker",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileCraftingStation",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.stand.TileArmorStand",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileLockableDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TileFlintBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.mcft.copy.betterstorage.tile.TilePresent",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

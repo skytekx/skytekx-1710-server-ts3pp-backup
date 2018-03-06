@@ -1,0 +1,5 @@
+# Custom gitignore file for Minecraft
+
+# Minecraft
+/
+server.properties

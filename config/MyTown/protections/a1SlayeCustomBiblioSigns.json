@@ -1,0 +1,12 @@
+{
+  "modid": "BiblioCraft",
+  "segments": [
+    {
+      "class": "jds.bibliocraft.blocks.BlockFancySign",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

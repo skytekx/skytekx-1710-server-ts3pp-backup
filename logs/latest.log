@@ -1,119 +1,112 @@
-[19:55:52] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[19:56:46] [Server thread/INFO]: Loading properties
-[19:56:46] [Server thread/INFO]: Default game type: SURVIVAL
-[19:56:46] [Server thread/INFO]: Generating keypair
-[19:56:46] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[19:57:12] [Server thread/WARN]: Failed to load user banlist: 
-java.io.FileNotFoundException: banned-players.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152620_y(SourceFile:99) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:25) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-[19:57:12] [Server thread/WARN]: Failed to load ip banlist: 
-java.io.FileNotFoundException: banned-ips.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152619_x(SourceFile:91) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:27) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-[19:57:12] [Server thread/WARN]: Failed to load operators list: 
-java.io.FileNotFoundException: ops.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72417_t(SourceFile:107) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:29) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-[19:57:12] [Server thread/WARN]: Failed to load white-list: 
-java.io.FileNotFoundException: whitelist.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72418_v(SourceFile:123) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:30) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-[19:57:12] [Server thread/INFO]: Preparing level "world"
-[19:57:14] [Server thread/WARN]: Unable to find spawn biome
-[19:57:14] [Server thread/WARN]: Unable to find spawn biome
-[19:57:14] [Server thread/INFO]: Preparing start region for level 0
-[19:57:15] [Server thread/INFO]: Preparing spawn area: 4%
-[19:57:18] [Server thread/INFO]: Preparing spawn area: 6%
-[19:57:19] [Server thread/INFO]: Preparing spawn area: 6%
-[19:57:20] [Server thread/INFO]: Preparing spawn area: 10%
-[19:57:21] [Server thread/INFO]: Preparing spawn area: 13%
-[19:57:22] [Server thread/INFO]: Preparing spawn area: 17%
-[19:57:23] [Server thread/INFO]: Preparing spawn area: 21%
-[19:57:24] [Server thread/INFO]: Preparing spawn area: 26%
-[19:57:25] [Server thread/INFO]: Preparing spawn area: 31%
-[19:57:26] [Server thread/INFO]: Preparing spawn area: 38%
-[19:57:27] [Server thread/INFO]: Preparing spawn area: 42%
-[19:57:28] [Server thread/INFO]: Preparing spawn area: 49%
-[19:57:29] [Server thread/INFO]: Preparing spawn area: 56%
-[19:57:30] [Server thread/INFO]: Preparing spawn area: 65%
-[19:57:31] [Server thread/INFO]: Preparing spawn area: 71%
-[19:57:32] [Server thread/INFO]: Preparing spawn area: 79%
-[19:57:33] [Server thread/INFO]: Preparing spawn area: 85%
-[19:57:35] [Server thread/INFO]: Preparing spawn area: 92%
-[19:57:35] [Server thread/INFO]: Done (23.315s)! For help, type "help" or "?"
-[19:57:35] [Server thread/INFO]: Starting GS4 status listener
-[19:57:35] [Server thread/INFO]: Starting remote control listener
-[19:57:35] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[19:57:35] [RCON Listener #2/INFO]: RCON running on 0.0.0.0:65535
-[19:57:39] [Server thread/WARN]: ./cloud-network.properties does not exist
-[19:57:39] [Server thread/INFO]: Generating new properties file
-[19:57:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3160ms behind, skipping 63 tick(s)
-[19:58:42] [User Authenticator #1/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
-[19:58:43] [Server thread/INFO]: EvilAntiSmiley[/77.118.191.199:33967] logged in with entity id 4376 at (251.5, 77.0, 140.5)
-[19:58:43] [Server thread/INFO]: EvilAntiSmiley joined the game
-[19:58:43] [Server thread/INFO]: EvilAntiSmiley has just earned the achievement [You've been installed!]
-[19:58:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2369ms behind, skipping 47 tick(s)
-[19:58:53] [Server thread/INFO]: EvilAntiSmiley has just earned the achievement [Taking Inventory]
-[19:59:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13927ms behind, skipping 278 tick(s)
-[19:59:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4190ms behind, skipping 83 tick(s)
-[20:02:18] [Server thread/INFO]: EvilAntiSmiley has just earned the achievement [The more you know]
-[20:05:12] [Server thread/INFO]: EvilAntiSmiley has just earned the achievement [Learning to Tinker]
-[20:19:30] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:19:30] [Server thread/INFO]: EvilAntiSmiley left the game
-[20:20:36] [User Authenticator #2/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
-[20:20:36] [Server thread/INFO]: EvilAntiSmiley[/77.118.191.199:34180] logged in with entity id 23771 at (371.25592685737666, 66.0, 150.05559433871395)
-[20:20:36] [Server thread/INFO]: EvilAntiSmiley joined the game
-[20:24:43] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:24:43] [Server thread/INFO]: EvilAntiSmiley left the game
-[20:39:36] [RCON Listener #2/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
-[20:39:36] [RCON Client #3/INFO]: [Rcon: Stopping the server]
-[20:39:36] [Server thread/INFO]: Stopping server
-[20:39:36] [Server thread/INFO]: Saving players
-[20:39:36] [Server thread/INFO]: Saving worlds
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Asteroids
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Torment
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Dungeons
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Aether
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Moon
-[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Mars
+[22:36:06] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[22:38:12] [Server thread/INFO]: Loading properties
+[22:38:12] [Server thread/INFO]: Default game type: SURVIVAL
+[22:38:12] [Server thread/INFO]: Generating keypair
+[22:38:12] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[22:39:16] [Server thread/INFO]: Preparing level "world"
+[22:39:19] [Server thread/INFO]: Preparing start region for level 0
+[22:39:20] [Server thread/INFO]: Preparing spawn area: 13%
+[22:39:22] [Server thread/INFO]: Preparing spawn area: 40%
+[22:39:23] [Server thread/INFO]: Preparing spawn area: 57%
+[22:39:24] [Server thread/INFO]: Preparing spawn area: 81%
+[22:39:25] [Server thread/INFO]: Done (9.512s)! For help, type "help" or "?"
+[22:39:25] [Server thread/INFO]: Starting remote control listener
+[22:39:25] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:65535
+[22:39:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3997ms behind, skipping 79 tick(s)
+[22:43:38] [User Authenticator #1/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:43:41] [Server thread/INFO]: EvilAntiSmiley[/77.118.191.199:48398] logged in with entity id 603 at (387.0743760884519, 37.0, 150.46486282995534)
+[22:43:41] [Server thread/INFO]: EvilAntiSmiley joined the game
+[22:43:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4931ms behind, skipping 98 tick(s)
+[22:44:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6808ms behind, skipping 136 tick(s)
+[22:44:12] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[22:44:12] [Server thread/INFO]: EvilAntiSmiley left the game
+[22:44:17] [User Authenticator #2/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:44:18] [Server thread/INFO]: EvilAntiSmiley[/77.118.191.199:48412] logged in with entity id 997 at (387.0743760884519, 37.0, 150.46486282995534)
+[22:44:18] [Server thread/INFO]: EvilAntiSmiley joined the game
+[22:44:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2067ms behind, skipping 41 tick(s)
+[22:45:51] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='You have died. Game over, man, it's game over!', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[22:45:51] [Server thread/INFO]: EvilAntiSmiley left the game
+[22:45:57] [User Authenticator #3/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:45:57] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6a34fcd3[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@50fb5608]},legacy=false] (/77.118.191.199:48434): You are banned from this server!
+Reason: Death in Hardcore
+[22:45:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@6a34fcd3[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@50fb5608]},legacy=false] (/77.118.191.199:48434) lost connection: You are banned from this server!
+Reason: Death in Hardcore
+[22:46:03] [User Authenticator #4/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:46:03] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ddae11[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@24e59fd0]},legacy=false] (/77.118.191.199:48436): You are banned from this server!
+Reason: Death in Hardcore
+[22:46:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ddae11[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@24e59fd0]},legacy=false] (/77.118.191.199:48436) lost connection: You are banned from this server!
+Reason: Death in Hardcore
+[22:46:31] [User Authenticator #5/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:46:31] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@42a40bcc[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@1440c1bc]},legacy=false] (/77.118.191.199:48443): You are banned from this server!
+Reason: Death in Hardcore
+[22:46:32] [Server thread/INFO]: com.mojang.authlib.GameProfile@42a40bcc[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@1440c1bc]},legacy=false] (/77.118.191.199:48443) lost connection: You are banned from this server!
+Reason: Death in Hardcore
+[22:46:37] [User Authenticator #6/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:46:37] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1af9cf4f[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@73459191]},legacy=false] (/77.118.191.199:48446): You are banned from this server!
+Reason: Death in Hardcore
+[22:46:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@1af9cf4f[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@73459191]},legacy=false] (/77.118.191.199:48446) lost connection: You are banned from this server!
+Reason: Death in Hardcore
+[22:48:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2723ms behind, skipping 54 tick(s)
+[22:49:12] [User Authenticator #7/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:49:12] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4cc426f6[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@17b88a49]},legacy=false] (/77.118.191.199:48504): You are banned from this server!
+Reason: Death in Hardcore
+[22:49:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@4cc426f6[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@17b88a49]},legacy=false] (/77.118.191.199:48504) lost connection: You are banned from this server!
+Reason: Death in Hardcore
+[22:49:16] [User Authenticator #8/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:49:16] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@48a922fc[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@5fcd9689]},legacy=false] (/77.118.191.199:48508): You are banned from this server!
+Reason: Death in Hardcore
+[22:49:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@48a922fc[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@5fcd9689]},legacy=false] (/77.118.191.199:48508) lost connection: You are banned from this server!
+Reason: Death in Hardcore
+[22:50:04] [User Authenticator #9/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[22:50:04] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ffcae4c[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@31f3e2c9]},legacy=false] (/77.118.191.199:48516): You are banned from this server!
+Reason: Death in Hardcore
+[22:50:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ffcae4c[id=c811ffa1-cfcd-44bf-a87c-64a8a0cc7518,name=EvilAntiSmiley,properties={textures=[com.mojang.authlib.properties.Property@31f3e2c9]},legacy=false] (/77.118.191.199:48516) lost connection: You are banned from this server!
+Reason: Death in Hardcore
+[22:50:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3316ms behind, skipping 66 tick(s)
+[22:55:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2837ms behind, skipping 56 tick(s)
+[22:56:09] [RCON Listener #1/INFO]: Rcon connection from: /127.0.0.1
+[22:56:09] [RCON Client #2/INFO]: [Rcon: Stopping the server]
+[22:56:09] [Server thread/INFO]: Stopping server
+[22:56:09] [Server thread/INFO]: Saving players
+[22:56:09] [Server thread/INFO]: Saving worlds
+[22:56:09] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:56:09] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:56:09] [Server thread/INFO]: Saving chunks for level 'world'/Asteroids
+[22:56:09] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[22:56:09] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[22:56:09] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[22:56:09] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[22:56:09] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
+[22:56:10] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[22:56:10] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[22:56:10] [Server thread/INFO]: Saving chunks for level 'world'/Dungeons
+[22:56:10] [Server thread/INFO]: Saving chunks for level 'world'/Aether
+[22:56:10] [Server thread/INFO]: Saving chunks for level 'world'/Moon
+[22:56:10] [Server thread/INFO]: Saving chunks for level 'world'/Mars
+[22:56:34] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[22:58:33] [Server thread/INFO]: Loading properties
+[22:58:33] [Server thread/INFO]: Default game type: SURVIVAL
+[22:58:33] [Server thread/INFO]: Generating keypair
+[22:58:33] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[22:59:30] [Server thread/INFO]: Preparing level "world"
+[22:59:33] [Server thread/INFO]: Preparing start region for level 0
+[22:59:34] [Server thread/INFO]: Preparing spawn area: 7%
+[22:59:35] [Server thread/INFO]: Preparing spawn area: 39%
+[22:59:36] [Server thread/INFO]: Preparing spawn area: 84%
+[22:59:37] [Server thread/INFO]: Done (6.593s)! For help, type "help" or "?"
+[22:59:37] [Server thread/INFO]: Starting remote control listener
+[22:59:37] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:65535
+[22:59:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3748ms behind, skipping 74 tick(s)
+[23:12:11] [User Authenticator #1/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[23:12:12] [Server thread/INFO]: EvilAntiSmiley[/77.118.191.199:48904] logged in with entity id 377 at (248.5, 77.0, 140.5)
+[23:12:12] [Server thread/INFO]: EvilAntiSmiley joined the game
+[23:12:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3914ms behind, skipping 78 tick(s)
+[23:12:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2128ms behind, skipping 42 tick(s)
+[23:13:20] [Server thread/INFO]: EvilAntiSmiley lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Connection reset by peer], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[23:13:20] [Server thread/INFO]: EvilAntiSmiley left the game
+[23:14:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2058ms behind, skipping 41 tick(s)
+[23:15:02] [User Authenticator #2/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[23:15:03] [Server thread/INFO]: EvilAntiSmiley[/77.118.191.199:49026] logged in with entity id 3188 at (310.92103607216256, 60.25143285655842, 141.79035666177597)
+[23:15:03] [Server thread/INFO]: EvilAntiSmiley joined the game
+[23:16:16] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[23:16:16] [Server thread/INFO]: EvilAntiSmiley left the game

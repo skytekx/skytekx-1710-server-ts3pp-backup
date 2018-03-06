@@ -1,0 +1,119 @@
+[19:55:52] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[19:56:46] [Server thread/INFO]: Loading properties
+[19:56:46] [Server thread/INFO]: Default game type: SURVIVAL
+[19:56:46] [Server thread/INFO]: Generating keypair
+[19:56:46] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[19:57:12] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152620_y(SourceFile:99) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:25) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[19:57:12] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152619_x(SourceFile:91) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:27) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[19:57:12] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72417_t(SourceFile:107) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:29) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[19:57:12] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72418_v(SourceFile:123) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:30) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[19:57:12] [Server thread/INFO]: Preparing level "world"
+[19:57:14] [Server thread/WARN]: Unable to find spawn biome
+[19:57:14] [Server thread/WARN]: Unable to find spawn biome
+[19:57:14] [Server thread/INFO]: Preparing start region for level 0
+[19:57:15] [Server thread/INFO]: Preparing spawn area: 4%
+[19:57:18] [Server thread/INFO]: Preparing spawn area: 6%
+[19:57:19] [Server thread/INFO]: Preparing spawn area: 6%
+[19:57:20] [Server thread/INFO]: Preparing spawn area: 10%
+[19:57:21] [Server thread/INFO]: Preparing spawn area: 13%
+[19:57:22] [Server thread/INFO]: Preparing spawn area: 17%
+[19:57:23] [Server thread/INFO]: Preparing spawn area: 21%
+[19:57:24] [Server thread/INFO]: Preparing spawn area: 26%
+[19:57:25] [Server thread/INFO]: Preparing spawn area: 31%
+[19:57:26] [Server thread/INFO]: Preparing spawn area: 38%
+[19:57:27] [Server thread/INFO]: Preparing spawn area: 42%
+[19:57:28] [Server thread/INFO]: Preparing spawn area: 49%
+[19:57:29] [Server thread/INFO]: Preparing spawn area: 56%
+[19:57:30] [Server thread/INFO]: Preparing spawn area: 65%
+[19:57:31] [Server thread/INFO]: Preparing spawn area: 71%
+[19:57:32] [Server thread/INFO]: Preparing spawn area: 79%
+[19:57:33] [Server thread/INFO]: Preparing spawn area: 85%
+[19:57:35] [Server thread/INFO]: Preparing spawn area: 92%
+[19:57:35] [Server thread/INFO]: Done (23.315s)! For help, type "help" or "?"
+[19:57:35] [Server thread/INFO]: Starting GS4 status listener
+[19:57:35] [Server thread/INFO]: Starting remote control listener
+[19:57:35] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[19:57:35] [RCON Listener #2/INFO]: RCON running on 0.0.0.0:65535
+[19:57:39] [Server thread/WARN]: ./cloud-network.properties does not exist
+[19:57:39] [Server thread/INFO]: Generating new properties file
+[19:57:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3160ms behind, skipping 63 tick(s)
+[19:58:42] [User Authenticator #1/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[19:58:43] [Server thread/INFO]: EvilAntiSmiley[/77.118.191.199:33967] logged in with entity id 4376 at (251.5, 77.0, 140.5)
+[19:58:43] [Server thread/INFO]: EvilAntiSmiley joined the game
+[19:58:43] [Server thread/INFO]: EvilAntiSmiley has just earned the achievement [You've been installed!]
+[19:58:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2369ms behind, skipping 47 tick(s)
+[19:58:53] [Server thread/INFO]: EvilAntiSmiley has just earned the achievement [Taking Inventory]
+[19:59:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13927ms behind, skipping 278 tick(s)
+[19:59:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4190ms behind, skipping 83 tick(s)
+[20:02:18] [Server thread/INFO]: EvilAntiSmiley has just earned the achievement [The more you know]
+[20:05:12] [Server thread/INFO]: EvilAntiSmiley has just earned the achievement [Learning to Tinker]
+[20:19:30] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[20:19:30] [Server thread/INFO]: EvilAntiSmiley left the game
+[20:20:36] [User Authenticator #2/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[20:20:36] [Server thread/INFO]: EvilAntiSmiley[/77.118.191.199:34180] logged in with entity id 23771 at (371.25592685737666, 66.0, 150.05559433871395)
+[20:20:36] [Server thread/INFO]: EvilAntiSmiley joined the game
+[20:24:43] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[20:24:43] [Server thread/INFO]: EvilAntiSmiley left the game
+[20:39:36] [RCON Listener #2/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[20:39:36] [RCON Client #3/INFO]: [Rcon: Stopping the server]
+[20:39:36] [Server thread/INFO]: Stopping server
+[20:39:36] [Server thread/INFO]: Saving players
+[20:39:36] [Server thread/INFO]: Saving worlds
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Asteroids
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Dungeons
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Aether
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Moon
+[20:39:36] [Server thread/INFO]: Saving chunks for level 'world'/Mars

@@ -1,11 +1,10 @@
 
-Loading excluded list from: C:\Users\archer\Downloads\hex2\git-tekxit-server\world\DIM-28
+Loading excluded list from: C:\Users\archer\Downloads\hex2\git-tekxit-server\world\DIM-29
 No exclusions found for this world.
 
-Loading options from: C:\Users\archer\Downloads\hex2\git-tekxit-server\world\DIM-28
+Loading options from: C:\Users\archer\Downloads\hex2\git-tekxit-server\world\DIM-29
 tries_per_chunk_normal = 6
 chance_to_spawn_normal = 10.0
 templateInstancesMinDistance = 256.0
 anyRuinsMinDistance = 64.0
-Ruins mod loaded successfully for world .\world\DIM-28, template files: 32
-: 32
+Ruins mod loaded successfully for world .\world\DIM-29, template files: 32

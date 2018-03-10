@@ -1,15 +1,34 @@
-[22:25:18] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[22:25:45] [Server thread/INFO]: Loading properties
-[22:25:45] [Server thread/INFO]: Default game type: SURVIVAL
-[22:25:45] [Server thread/INFO]: Generating keypair
-[22:25:45] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[22:25:59] [Server thread/INFO]: Preparing level "world"
-[22:26:00] [Server thread/INFO]: Preparing start region for level 0
-[22:26:01] [Server thread/INFO]: Done (1.482s)! For help, type "help" or "?"
-[22:26:01] [Server thread/INFO]: Starting remote control listener
-[22:26:01] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:65535
-[22:27:54] [User Authenticator #1/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
-[22:27:55] [Server thread/INFO]: EvilAntiSmiley[/127.0.0.1:43018] logged in with entity id 338 at (368.22184682619763, 66.0, 149.95490464192403)
-[22:27:55] [Server thread/INFO]: EvilAntiSmiley joined the game
-[22:28:56] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[22:28:56] [Server thread/INFO]: EvilAntiSmiley left the game
+[23:00:11] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[23:00:40] [Server thread/INFO]: Loading properties
+[23:00:40] [Server thread/INFO]: Default game type: SURVIVAL
+[23:00:40] [Server thread/INFO]: Generating keypair
+[23:00:40] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[23:00:54] [Server thread/INFO]: Preparing level "world"
+[23:00:55] [Server thread/INFO]: Preparing start region for level 0
+[23:00:56] [Server thread/INFO]: Done (1.732s)! For help, type "help" or "?"
+[23:00:56] [Server thread/INFO]: Starting remote control listener
+[23:00:56] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:65535
+[23:01:19] [User Authenticator #1/INFO]: UUID of player EvilAntiSmiley is c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
+[23:01:20] [Server thread/INFO]: EvilAntiSmiley[/127.0.0.1:43883] logged in with entity id 226 at (368.30000001192093, 63.0, 158.3986117483915)
+[23:01:20] [Server thread/INFO]: EvilAntiSmiley joined the game
+[23:02:47] [Server thread/INFO]: Sickly Zombie burned to death
+[23:03:31] [Server thread/INFO]: EvilAntiSmiley lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[23:03:31] [Server thread/INFO]: EvilAntiSmiley left the game
+[23:21:00] [Server thread/INFO]: Stopping the server
+[23:21:00] [Server thread/INFO]: Stopping server
+[23:21:00] [Server thread/INFO]: Saving players
+[23:21:00] [Server thread/INFO]: Saving worlds
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Asteroids
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Dungeons
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Aether
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Moon
+[23:21:00] [Server thread/INFO]: Saving chunks for level 'world'/Mars

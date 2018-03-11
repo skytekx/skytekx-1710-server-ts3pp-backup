@@ -15,7 +15,7 @@ User=minecraft
 
 Group=minecraft
 
-Nice=-5
+Nice=-20
 
 EnvironmentFile=-/opt/minecraft-server/unit.conf
 
@@ -26,7 +26,7 @@ SuccessExitStatus=0 1
 
 ProtectHome=true
 
-ProtectSystem=full
+ProtectSystem=false
 
 PrivateDevices=true
 
@@ -41,7 +41,7 @@ ReadWriteDirectories=/opt/minecraft-server/server/tekxit2-server
 
 WorkingDirectory=/opt/minecraft-server/server/tekxit2-server
 
-ExecStart=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre/bin/java -XX:+UseG1GC -XX:StringTableSize=1000003 -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=4096m -XX:+AggressiveOpts -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -Xms4G -Xmx6G -XX:hashCode=5 -Dfile.encoding=UTF-8 -jar run.jar --log-strip-color nogui --noconsole
+ExecStart=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -XX:+UseG1GC -XX:StringTableSize=1000003 -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=4096m -XX:+AggressiveOpts -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -Xms4G -Xmx6G -XX:hashCode=5 -Dfile.encoding=UTF-8 -jar run.jar --log-strip-color nogui --noconsole
 
 ExecStop=/usr/local/bin/mcrcon -H localhost -P 65535 -p Monopoly stop
 

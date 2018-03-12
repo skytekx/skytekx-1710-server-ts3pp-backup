@@ -1,23 +1,23 @@
 uuid: c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
 timestamps:
-  login: 1520893584497
-  logout: 1520894190922
-  lastteleport: 1520894026944
+  login: 1520895202921
+  logout: 1520895333323
+  lastteleport: 1520895320410
 ipAddress: 127.0.0.1
 logoutlocation:
-  world: iceland
-  x: 170.55432124102632
-  y: 64.0
-  z: 250.8025576428803
-  yaw: -82.200165
-  pitch: 0.30002442
+  world: world
+  x: 254.40443927053764
+  y: 78.0
+  z: 149.23621523663678
+  yaw: 83.85003
+  pitch: 25.949987
 lastlocation:
   world: world
-  x: 201.01573645154517
-  y: 70.23681388420825
-  z: 271.9654035032836
-  yaw: 215.99994
-  pitch: 38.399998
+  x: 249.69999998807907
+  y: 72.0
+  z: 151.622798336457
+  yaw: 182.6997
+  pitch: -22.500036
 homes:
   home:
     world: world

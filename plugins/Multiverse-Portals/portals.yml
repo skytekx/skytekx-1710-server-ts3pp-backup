@@ -1,0 +1,12 @@
+portals:
+  world:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: EvilAntiSmiley
+    location: 254.0,78.0,152.0:256.0,80.0,152.0
+    world: world
+    destination: iceland

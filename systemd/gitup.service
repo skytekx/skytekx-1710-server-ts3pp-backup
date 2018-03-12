@@ -1,0 +1,6 @@
+[Unit]
+Description=GitUp git auto commits
+
+[Service]
+Type=oneshot
+ExecStart=/opt/minecraft-server/server/tekxit2-server/gitup.sh

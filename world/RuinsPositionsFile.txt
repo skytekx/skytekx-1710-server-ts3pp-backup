@@ -9,6 +9,7 @@
 # It should also prevent Ruins re-spawning under any circumstances. Areas registered in here block any overlapping new Ruins.
 # Empty lines and those prefixed by '#' are ignored by the parser. Don't save notes in here, file gets wiped upon flushing.
 #
+14 62 375 21 70 382 Outcrop.tml
 50 68 99 60 80 107 ArrowTrapTomb.tml
 54 107 9 57 110 12 StoneGrill.tml
 56 68 184 66 76 196 StoneHouseMruined.tml

@@ -670,17 +670,17 @@ protect:
   # You can find a list of IDs in plugins/Essentials/items.csv after loading Essentials for the first time.
   # 10 = lava :: 11 = still lava :: 46 = TNT :: 327 = lava bucket
   alert:
-    on-placement: 212
-    on-use: 212
+    on-placement: 211,212,213,214,2352,2360,4266,4267,7041
+    on-use: 211,212,213,214,2352,2360,4266,4267,7041
     on-break:
 
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: 10,11,46,327
+    placement: 211,212,213,214,2352,2360,4266,4267,7041
 
     # Which items should people be prevented from using?
-    usage: 327
+    usage: 211,212,213,214,2352,2360,4266,4267,7041
 
     # Which blocks should people be prevented from breaking?
     break:

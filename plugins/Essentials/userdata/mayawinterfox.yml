@@ -1,24 +1,24 @@
 uuid: b9d75492-4c60-4208-9cd1-4e125feed20e
 timestamps:
-  login: 1520800385706
-  lastteleport: 1520813576028
+  login: 1520950055646
+  lastteleport: 1520950266687
   logout: 1520813790405
-ipAddress: 193.159.107.97
+ipAddress: 193.159.109.206
 lastlocation:
   world: world
-  x: 248.0
-  y: 78.0
-  z: 148.0
-  yaw: 0.0
-  pitch: 0.0
+  x: 604.6701324947051
+  y: 77.0
+  z: -695.1908515664285
+  yaw: 171.99132
+  pitch: 21.221535
 homes:
   home:
     world: world
-    x: 117.5
-    y: 71.0
-    z: 173.5
-    yaw: 168.21707
-    pitch: 28.505777
+    x: 587.7524512231577
+    y: 79.0
+    z: -697.3000000119209
+    yaw: -200.60455
+    pitch: 25.364834
 logoutlocation:
   world: world
   x: 117.23040019249525

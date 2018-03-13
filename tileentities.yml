@@ -40,12 +40,39 @@ world-settings:
     thaumcraft-common-tiles-TileEldritchObelisk:
       tick-no-players: false
       tick-interval: 1
+    tconstruct-smeltery-logic-CastingBasinLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingTableLogic:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockMobSpawnerTileEntity:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
       tick-no-players: false
       tick-interval: 1
-    com-emoniph-witchery-blocks-BlockRefillingChestTileEntityRefillingChest:
+    openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
-    openblocks-common-tileentity-TileEntityGrave:
+    com-chocolate-chocolateQuest-block-BlockAltarTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    com-emoniph-witchery-worldgen-WorldHandlerVillageDistrictWallBlockVillageWallGenTileEntityVillageWallGen:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockBannerStandTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-emoniph-witchery-blocks-BlockRefillingChestTileEntityRefillingChest:
       tick-no-players: false
       tick-interval: 1

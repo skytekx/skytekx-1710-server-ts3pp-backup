@@ -34,13 +34,13 @@ world-settings:
     thaumcraft-common-tiles-TileNode:
       tick-no-players: false
       tick-interval: 1
+    net-mcft-copy-betterstorage-tile-entity-TileEntityReinforcedChest:
+      tick-no-players: false
+      tick-interval: 1
     openblocks-common-tileentity-TileEntityTrophy:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityEnchantmentTable:
-      tick-no-players: false
-      tick-interval: 1
-    jds-bibliocraft-tileentities-TileEntityPrintPress:
+    com-aesireanempire-eplus-inventory-TileEnchantTable:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityBrewingStand:
@@ -67,10 +67,19 @@ world-settings:
     com-rwtema-extrautils-tileentity-transfernodes-TileEntityTransferNodeInventory:
       tick-no-players: false
       tick-interval: 1
+    thaumcraft-common-tiles-TileResearchTable:
+      tick-no-players: false
+      tick-interval: 1
     appeng-tile-grindstone-TileCrank:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-machine-TilePulverizer:
+    com-pam-harvestcraft-TileEntityPamPresser:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-TileEntityBarrel:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-misc-TileCharger:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnaceOverClocked:
@@ -82,25 +91,70 @@ world-settings:
     thaumcraft-common-tiles-TileCrucible:
       tick-no-players: false
       tick-interval: 1
+    net-minecraft-tileentity-TileEntityHopper:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-cell-TileCell:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorSolar:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileAltar:
+      tick-no-players: false
+      tick-interval: 1
     thaumcraft-common-tiles-TileEldritchAltar:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileEldritchObelisk:
       tick-no-players: false
       tick-interval: 1
+    twilightforest-tileentity-TileEntityTFReverter:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFGhastTrapInactive:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFTowerBossSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFKnightPhantomsSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFFirefly:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockMobSpawnerTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFCicada:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFSmoker:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFFlameJet:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFPoppingJet:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-mana-TilePool:
+      tick-no-players: false
+      tick-interval: 1
     cpw-mods-ironchest-TileEntityCrystalChest:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityHopper:
+    advsolar-common-tiles-TileEntityAdvancedSolarPanel:
       tick-no-players: false
       tick-interval: 1
     advsolar-common-tiles-TileEntityMolecularTransformer:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-cell-TileCell:
       tick-no-players: false
       tick-interval: 1
     com-brandon3055-draconicevolution-common-tileentities-TileGenerator:
@@ -112,7 +166,7 @@ world-settings:
     powercrystals-powerconverters-common-TileEntityCharger:
       tick-no-players: false
       tick-interval: 1
-    appeng-tile-misc-TileCharger:
+    cofh-thermalexpansion-block-machine-TilePulverizer:
       tick-no-players: false
       tick-interval: 1
     ic2-core-block-machine-tileentity-TileEntityElectricFurnace:
@@ -142,22 +196,25 @@ world-settings:
     ic2-core-block-wiring-TileEntityElectricBatBox:
       tick-no-players: false
       tick-interval: 1
-    com-chocolate-chocolateQuest-block-BlockMobSpawnerTileEntity:
-      tick-no-players: false
-      tick-interval: 1
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
-    thaumcraft-common-tiles-TileResearchTable:
+    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
       tick-no-players: false
       tick-interval: 1
     cpw-mods-ironchest-TileEntityGoldChest:
       tick-no-players: false
       tick-interval: 1
-    net-mcft-copy-betterstorage-tile-entity-TileEntityReinforcedChest:
+    net-minecraft-tileentity-TileEntityEnchantmentTable:
       tick-no-players: false
       tick-interval: 1
-    com-aesireanempire-eplus-inventory-TileEnchantTable:
+    jds-bibliocraft-tileentities-TileEntityPrintPress:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockAltarTileEntity:
       tick-no-players: false
       tick-interval: 1
     com-chocolate-chocolateQuest-block-BlockBannerStandTileEntity:
@@ -169,61 +226,10 @@ world-settings:
     com-stek101-projectzulu-common-blocks-tombstone-TileEntityTombstone:
       tick-no-players: false
       tick-interval: 1
-    ic2-core-block-TileEntityBarrel:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
-      tick-no-players: false
-      tick-interval: 1
-    com-chocolate-chocolateQuest-block-BlockAltarTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorSolar:
-      tick-no-players: false
-      tick-interval: 1
-    advsolar-common-tiles-TileEntityAdvancedSolarPanel:
-      tick-no-players: false
-      tick-interval: 1
-    com-pam-harvestcraft-TileEntityPamPresser:
-      tick-no-players: false
-      tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnaceSurvival:
       tick-no-players: false
       tick-interval: 1
     com-chocolate-chocolateQuest-block-BlockArmorStandTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    vazkii-botania-common-block-tile-TileSpecialFlower:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFFirefly:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFCicada:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFKnightPhantomsSpawner:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFGhastTrapInactive:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFTowerBossSpawner:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFReverter:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFSmoker:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFPoppingJet:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFFlameJet:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityPiston:

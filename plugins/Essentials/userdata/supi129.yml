@@ -1,23 +1,23 @@
 uuid: ccd8937f-4580-481c-a005-ae4ded1b3c28
 timestamps:
-  login: 1521055208978
-  logout: 1521058773518
-  lastteleport: 1521057259601
+  login: 1521130234953
+  logout: 1521124608243
+  lastteleport: 1521132837938
 ipAddress: 194.118.59.200
 lastlocation:
   world: world
-  x: 529.7246889441102
-  y: 104.40382134367731
-  z: -656.495436430993
-  yaw: 217.49982
-  pitch: -12.150062
+  x: 248.5
+  y: 78.0
+  z: 148.5
+  yaw: 0.0
+  pitch: 0.0
 logoutlocation:
   world: world
-  x: 562.4754017706639
+  x: 563.7828979006819
   y: 190.0
-  z: -719.2919146936532
-  yaw: 307.3501
-  pitch: 15.600001
+  z: -720.0642246223673
+  yaw: -154.80063
+  pitch: 15.899998
 homes:
   home:
     world: world

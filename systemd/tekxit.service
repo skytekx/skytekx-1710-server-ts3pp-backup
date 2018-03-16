@@ -41,7 +41,7 @@ ReadWriteDirectories=/opt/minecraft-server/server/tekxit2-server
 
 WorkingDirectory=/opt/minecraft-server/server/tekxit2-server
 
-ExecStart=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -XX:+UseG1GC -XX:StringTableSize=1000003 -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=4096m -XX:+AggressiveOpts -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -Xms4096M -Xmx5888M -XX:hashCode=5 -Dfile.encoding=UTF-8 -jar run.jar --log-strip-color nogui --noconsole
+ExecStart=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -Xms4096M -Xmx5120M -jar run.jar nogui --noconsole
 
 ExecStop=/usr/local/bin/mcrcon -H localhost -P 65535 -p Monopoly stop
 

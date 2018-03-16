@@ -1,5 +1,5 @@
-# [](#header-1)Tekxit2 server with plugins
-Tekxit 2 is a combination of Tekkit and Hexxit in Minecraft 1.7.10.
+# [](#header-1)SkyTekx server with plugins
+SkyTekx is a combination of Tekkit, Hexxit and SkyFactory2.5 in Minecraft 1.7.10.
 
 
 ## [](#header-2)Installation
@@ -53,7 +53,7 @@ mkdir -p /opt/minecraft/{backup/server,build/mcrcon,server}
 
 
 ### [](#header-3)Step 3:
-In order to be able to manage the tekxit-server in the future we need to compile mcrcon.
+In order to be able to manage the SkyTekx-server in the future we need to compile mcrcon.
 
 ```bash
 cd /opt/minecraft-server/build/mcrcon
@@ -73,28 +73,28 @@ mv mcrcon /usr/local/bin/
 
 
 ### [](#header-3)Step 4:
-Next step we have to clone my tekxit2-server repo and link the systemd unit.
+Next step we have to clone my skytekx-server repo and link the systemd unit.
 
 ```bash
-git clone https://github.com/kleberboy/tekxit2-server.git /opt/minecraft-server/server/
+git clone https://github.com/kleberboy/skytekx-server.git /opt/minecraft-server/server/
 ```
 ```bash
 chown -Rv minecraft:minecraft /opt/minecraft-server/
 ```
 ```bash
-ln /opt/minecraft-server/server/tekxit2-server/systemd/tekxit.service /etc/systemd/system/
+ln /opt/minecraft-server/server/skytekx-server/systemd/skytekx.service /etc/systemd/system/
 ```
 ```bash
 systemctl daemon-reload
 ```
 ```bash
-systemctl start tekxit.service
+systemctl start skytekx.service
 ```
 ```bash
-systemctl status tekxit.service
+systemctl status skytekx.service
 ```
 ```bash
-systemctl enable tekxit.service
+systemctl enable skytekx.service
 ```
 
 

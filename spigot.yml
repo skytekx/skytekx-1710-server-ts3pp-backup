@@ -37,7 +37,6 @@ stats:
 world-settings:
   default:
     verbose: false
-    mob-spawn-range: 4
     merge-radius:
       item: 2.5
       exp: 3.0
@@ -91,11 +90,12 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    item-despawn-rate: 6000
-    use-async-lighting: true
+    mob-spawn-range: 4
     chunks-per-tick: 650
     clear-tick-list: false
     view-distance: 10
+    use-async-lighting: true
+    item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true

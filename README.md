@@ -76,7 +76,7 @@ mv mcrcon /usr/local/bin/
 Next step we have to clone my skytekx-server repo and link the systemd unit.
 
 ```bash
-git clone https://github.com/kleberboy/skytekx-server.git /opt/minecraft-server/server/
+git clone https://github.com/Yuuuux/SkyTekx-Server.git /opt/minecraft-server/server/skytekx-server
 ```
 ```bash
 chown -Rv minecraft:minecraft /opt/minecraft-server/

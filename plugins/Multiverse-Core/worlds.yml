@@ -290,7 +290,7 @@ worlds:
   DIM4:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM4
     color: WHITE
     style: NORMAL
     pvp: 'true'

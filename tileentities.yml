@@ -22,13 +22,22 @@ debug:
 config-version: 1
 world-settings:
   default:
-    buildcraft-builders-TileQuarryCompat:
+    net-minecraft-tileentity-TileEntityMobSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    chanceCubes-tileentities-TileChanceCube:
+      tick-no-players: false
+      tick-interval: 1
+    com-stek101-projectzulu-common-blocks-tombstone-TileEntityTombstone:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileNode:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityChest:
+    buildcraft-builders-TileQuarryCompat:
       tick-no-players: false
       tick-interval: 1
     com-pam-harvestcraft-TileEntityPamPresser:
@@ -62,9 +71,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-meteor-common-tileentity-TileEntityMeteorShield:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
     net-mcft-copy-betterstorage-tile-entity-TileEntityReinforcedChest:
@@ -181,9 +187,6 @@ world-settings:
     cpw-mods-ironchest-TileEntityGoldChest:
       tick-no-players: false
       tick-interval: 1
-    chanceCubes-tileentities-TileChanceCube:
-      tick-no-players: false
-      tick-interval: 1
     com-chocolate-chocolateQuest-block-BlockAltarTileEntity:
       tick-no-players: false
       tick-interval: 1
@@ -290,9 +293,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-emoniph-witchery-worldgen-WorldHandlerVillageDistrictWallBlockVillageWallGenTileEntityVillageWallGen:
-      tick-no-players: false
-      tick-interval: 1
-    com-stek101-projectzulu-common-blocks-tombstone-TileEntityTombstone:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnaceSurvival:

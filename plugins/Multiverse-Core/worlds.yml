@@ -43,7 +43,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: ENDOFTIME
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -91,7 +91,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: UNDERDARK
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -187,7 +187,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -235,7 +235,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: AETHER
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -283,7 +283,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: DUNGEONS
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -331,7 +331,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -379,7 +379,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: TWILIGHTFOREST
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -427,7 +427,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: OUTER
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -475,7 +475,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-1982418574244911132'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -523,7 +523,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: DREAMWORLD
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -571,7 +571,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: MIRROR
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -619,7 +619,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: TORMENT
-    seed: '-903888290523075171'
+    seed: '-2613354538165881216'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

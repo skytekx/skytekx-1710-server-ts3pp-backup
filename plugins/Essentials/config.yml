@@ -219,6 +219,8 @@ player-commands:
   - worth
   - xmpp
 
+  
+
 # Note: All items MUST be followed by a quantity!
 # All kit names should be lower case, and will be treated as lower in permissions/costs.
 # Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
@@ -240,6 +242,10 @@ kits:
       - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
       - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
       - 279:780 1
+  Essen:
+    delay: 1440
+    items:
+      - 364 16
   notch:
     delay: 6000
     items:
@@ -677,7 +683,7 @@ protect:
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: 211,212,213,214,2352,2360,4266,4267,7041
+    placement: 211,212,213,214,2352,2360,4266,4267,7041,564
 
     # Which items should people be prevented from using?
     usage: 211,212,213,214,2352,2360,4266,4267,7041

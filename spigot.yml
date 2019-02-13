@@ -33,7 +33,7 @@ settings:
   netty-threads: -1
   timeout-time: 90
   restart-on-crash: true
-  restart-script: ./start.sh
+  restart-script: ./RUN.sh
 world-settings:
   default:
     verbose: false

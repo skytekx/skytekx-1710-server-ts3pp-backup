@@ -16,7 +16,7 @@ First of all we need to make some preparations in the os to guarantee a reliable
 Setting up the correct locals:
 
 ```bash
-cp /usr/share/zoneinfo/UTC /etc/localtime
+ln -sfn /usr/share/zoneinfo/UTC /etc/localtime
 ```
 ```bash
 export LC_ALL=
@@ -76,7 +76,7 @@ mv mcrcon /usr/local/bin/
 Next step we have to clone my skytekx-server repo and link the systemd unit.
 
 ```bash
-git clone https://github.com/Yuuuux/SkyTekx-Server.git /opt/minecraft-server/server/skytekx-server
+git clone https://github.com/skytekxx/SkyTekx-Server.git /opt/minecraft-server/server/skytekx-server
 ```
 ```bash
 chown -Rv minecraft:minecraft /opt/minecraft-server/

@@ -142,40 +142,53 @@ debug:
 config-version: 1
 world-environment-settings:
   normal:
+    enabled: true
     keep-world-loaded: true
   nether:
+    enabled: true
     keep-world-loaded: true
   the_end:
+    enabled: true
     keep-world-loaded: false
   storage:
+    enabled: true
     keep-world-loaded: false
   endoftime:
-    keep-world-loaded: true
+    enabled: true
+    keep-world-loaded: false
   underdark:
+    enabled: true
     keep-world-loaded: false
   aether:
-    keep-world-loaded: true
+    enabled: true
+    keep-world-loaded: false
   dungeons:
-    keep-world-loaded: true
+    enabled: true
+    keep-world-loaded: false
   outer:
+    enabled: true
     keep-world-loaded: false
   twilightforest:
-    keep-world-loaded: false
     enabled: true
+    keep-world-loaded: false
   orbit:
-    keep-world-loaded: true
+    enabled: true
+    keep-world-loaded: false
   dreamworld:
+    enabled: true
     keep-world-loaded: false
   torment:
+    enabled: true
     keep-world-loaded: false
   mirror:
+    enabled: true
     keep-world-loaded: false
   asteroids:
-    keep-world-loaded: true
     enabled: true
+    keep-world-loaded: false
   mars:
-    keep-world-loaded: true
     enabled: true
+    keep-world-loaded: false
   moon:
-    keep-world-loaded: true
     enabled: true
+    keep-world-loaded: false

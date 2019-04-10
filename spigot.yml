@@ -11,12 +11,6 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
-commands:
-  tab-complete: true
-  send-namespaced: true
-  silent-commandblock-console: true
-  log: true
-  replace-commands: [setblock, summon, testforblock]
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Nice Try ^^ Unknown command. Type "/help" for help.
@@ -24,18 +18,28 @@ messages:
   outdated-client: Outdated client! Please use {}
   outdated-server: Outdated server! I'm still on {}
   restart: Server is restarting
+commands:
+  tab-complete: true
+  log: true
+  send-namespaced: true
+  silent-commandblock-console: true
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
 stats:
   disable-saving: false
   forced-stats: {}
 settings:
+  player-shuffle: 0
+  fullMatchRate: 10
   netty-threads: 4
+  sample-count: 12
   bungeecord: false
+  late-bind: false
   timeout-time: 120
   restart-on-crash: true
   restart-script: ./RUN.sh
-  late-bind: false
-  sample-count: 12
-  player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
   save-user-cache-on-stop-only: false
@@ -44,54 +48,40 @@ settings:
   moved-too-quickly-multiplier: 39
   global-api-cache: true
   item-dirty-ticks: 39
-  fullMatchRate: 10
 world-settings:
   default:
     verbose: false
-    view-distance: 7
+    arrow-despawn-rate: 1200
     merge-radius:
       exp: 3.0
       item: 3.0
-    chunks-per-tick: 390
+    use-async-lighting: true
+    view-distance: 7
     item-despawn-rate: 3900
-    mob-spawn-range: 3
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
+    chunks-per-tick: 390
+    clear-tick-list: false
+    zombie-aggressive-towards-villager: true
+    enable-zombie-pigmen-portal-spawns: false
     entity-tracking-range:
       players: 48
       animals: 48
       monsters: 48
       misc: 32
       other: 48
-    save-structure-info: true
+    mob-spawn-range: 3
     random-light-updates: false
-    nerf-spawner-mobs: false
-    zombie-aggressive-towards-villager: true
-    enable-zombie-pigmen-portal-spawns: false
-    max-entity-collisions: 8
-    dragon-death-sound-radius: 0
-    wither-spawn-sound-radius: 0
     max-bulk-chunks: 10
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
     max-tick-time:
       tile: 50
       entity: 50
-    clear-tick-list: false
-    hopper-alt-ticking: false
-    hopper-amount: 1
-    seed-village: 10397312
-    seed-feature: 14397617
-    seed-monument: 10397313
-    seed-slime: 987239911
+    max-tnt-per-tick: 100
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -112,9 +102,22 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    max-tnt-per-tick: 100
-    use-async-lighting: true
-    arrow-despawn-rate: 1200
+    nerf-spawner-mobs: false
+    save-structure-info: true
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+    max-entity-collisions: 8
+    dragon-death-sound-radius: 0
+    wither-spawn-sound-radius: 0
+    hopper-alt-ticking: false
+    hopper-amount: 1
+    seed-village: 10397312
+    seed-feature: 14397617
+    seed-monument: 10397313
+    seed-slime: 987239911

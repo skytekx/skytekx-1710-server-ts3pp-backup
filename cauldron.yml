@@ -70,48 +70,50 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-ExtrabiomesXL-EelGrassGenerator: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-ExtrabiomesXL-MountainDesertGenerator: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
     worldgen-harvestcraft-PamTreeGenerator: true
     worldgen-magicalcrops-WorldGenEssenceNether: true
-    worldgen-ExtrabiomesXL-LegendOakGenerator: true
-    worldgen-ExtrabiomesXL-FlowerGenerator: true
-    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
-    worldgen-hexxitgear-HGWorldGen: true
-    worldgen-chococraft-WorldGenGysahls: true
-    worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
-    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
-    worldgen-TConstruct-SlimeIslandGen: true
     worldgen-ExtrabiomesXL-LeafPileGenerator: true
+    worldgen-harvestcraft-WorldGenPamSalt: true
+    worldgen-ExtrabiomesXL-CatTailGenerator: true
+    worldgen-GalaxySpace-OverworldGenerator: true
     worldgen-magicalcrops-WorldGenEssenceEnd: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-ExtrabiomesXL-FlowerGenerator: true
     worldgen-ProjectZuluCore-FeatureGenerator: true
-    worldgen-chocolateQuest-WorldGeneratorNew: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-witchery-WitcheryWorldGenerator: true
+    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-ExtrabiomesXL-QuicksandGenerator: true
+    worldgen-chisel-GeneratorChisel: true
     worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-BattleTowers-WorldGenHandler: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-chococraft-WorldGenGysahls: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-kloudspacekloudgear-BaseHexGen: true
     worldgen-meteors-MeteorsMod: true
+    worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
+    worldgen-ExtrabiomesXL-OilGenerator: true
+    worldgen-ExtrabiomesXL-EelGrassGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-Natura-BaseTreeWorldgen: true
     worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-chocolateQuest-WorldGeneratorNew: true
+    worldgen-BattleTowers-WorldGenHandler: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-ExtrabiomesXL-VineGenerator: true
+    worldgen-IC2-IC2: true
+    worldgen-harvestcraft-PamGardenGenerator: true
+    worldgen-ASRuins-RuinsWorldGenerator: true
+    worldgen-magicalcrops-WorldGenEssence: true
+    worldgen-ExtrabiomesXL-LegendOakGenerator: true
+    worldgen-Natura-BaseCropWorldgen: true
     worldgen-DraconicEvolution-DraconicWorldGenerator: true
     worldgen-harvestcraft-PamBeeGenerator: true
-    worldgen-ASRuins-RuinsWorldGenerator: true
-    worldgen-ExtrabiomesXL-OilGenerator: true
-    worldgen-Natura-BaseCloudWorldgen: true
-    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-hexxitgear-HGWorldGen: true
     worldgen-GalacticraftCore-OverworldGenerator: true
-    worldgen-IC2-IC2: true
-    worldgen-ExtrabiomesXL-MountainDesertGenerator: true
-    worldgen-ExtrabiomesXL-CatTailGenerator: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-ExtrabiomesXL-VineGenerator: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-ExtrabiomesXL-QuicksandGenerator: true
-    worldgen-harvestcraft-WorldGenPamSalt: true
-    worldgen-harvestcraft-PamGardenGenerator: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-magicalcrops-WorldGenEssence: true
-    worldgen-witchery-WitcheryWorldGenerator: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
   max-players-visible: -1
 plugin-settings:
   default:
@@ -142,53 +144,132 @@ debug:
 config-version: 1
 world-environment-settings:
   normal:
-    enabled: true
     keep-world-loaded: true
+    enabled: true
   nether:
-    enabled: true
     keep-world-loaded: true
+    enabled: true
   the_end:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   storage:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   endoftime:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   underdark:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   aether:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   dungeons:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   outer:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   twilightforest:
-    enabled: true
     keep-world-loaded: false
-  orbit:
     enabled: true
+  orbit:
+    keep-world-loaded: false
+    enabled: true
+  marsss:
+    keep-world-loaded: true
+  venusss:
     keep-world-loaded: false
   dreamworld:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   torment:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   mirror:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
   asteroids:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
+  barnardac:
+    keep-world-loaded: true
+    enabled: true
+  barnardae:
+    keep-world-loaded: true
+    enabled: true
+  barnardaf:
+    keep-world-loaded: true
+    enabled: true
+  acentauri:
+    keep-world-loaded: true
+    enabled: true
+  ceres:
+    keep-world-loaded: true
+    enabled: true
+  haumea:
+    keep-world-loaded: true
+    enabled: true
+  kuiper:
+    keep-world-loaded: true
+    enabled: true
+  makemake:
+    keep-world-loaded: true
+    enabled: true
   mars:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
+  mercury:
+    keep-world-loaded: true
+    enabled: true
+  pluto:
+    keep-world-loaded: true
+    enabled: true
+  tcetie:
+    keep-world-loaded: true
+    enabled: true
+  vegab:
+    keep-world-loaded: true
+    enabled: true
+  venus:
+    keep-world-loaded: true
+    enabled: true
+  callisto:
+    keep-world-loaded: true
+    enabled: true
+  deimos:
+    keep-world-loaded: true
+    enabled: true
+  enceladus:
+    keep-world-loaded: true
+    enabled: true
+  europa:
+    keep-world-loaded: true
+    enabled: true
+  ganymede:
+    keep-world-loaded: true
+    enabled: true
+  io:
+    keep-world-loaded: true
+    enabled: true
+  miranda:
+    keep-world-loaded: true
+    enabled: true
   moon:
-    enabled: true
     keep-world-loaded: false
+    enabled: true
+  oberon:
+    keep-world-loaded: true
+    enabled: true
+  phobos:
+    keep-world-loaded: true
+    enabled: true
+  proteus:
+    keep-world-loaded: true
+    enabled: true
+  titan:
+    keep-world-loaded: true
+    enabled: true
+  triton:
+    keep-world-loaded: true
+    enabled: true

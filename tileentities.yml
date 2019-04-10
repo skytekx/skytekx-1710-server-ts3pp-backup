@@ -22,16 +22,13 @@ debug:
 config-version: 1
 world-settings:
   default:
-    galaxyspace-BarnardsSystem-planets-barnardaC-tile-TileEntityBlockCrystalBTE:
+    thaumcraft-common-tiles-TileNode:
       tick-no-players: false
       tick-interval: 1
     galaxyspace-BarnardsSystem-planets-barnardaC-tile-TileEntityBlockStalactite:
       tick-no-players: false
       tick-interval: 1
-    thaumcraft-common-tiles-TileNode:
-      tick-no-players: false
-      tick-interval: 1
-    vazkii-botania-common-block-tile-TileSpecialFlower:
+    galaxyspace-BarnardsSystem-planets-barnardaC-tile-TileEntityBlockCrystalBTE:
       tick-no-players: false
       tick-interval: 1
     chanceCubes-tileentities-TileChanceCube:
@@ -41,6 +38,9 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityFurnace:

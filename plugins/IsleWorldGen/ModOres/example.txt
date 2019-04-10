@@ -1,4 +1,0 @@
- id: [Name of block, or block ID]
- dmg: [Block damage value, not required]
- minsize: [Minimum vein size]
- chance: [Chance the vein may generate, per block]

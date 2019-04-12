@@ -56,6 +56,9 @@ database:
   driver: org.sqlite.JDBC
   password: walrus
   url: jdbc:sqlite:{DIR}{NAME}.db
+worlds:
+  world:
+    generator: SkyStoneGen
 world-settings:
   underdark:
     enabled: true

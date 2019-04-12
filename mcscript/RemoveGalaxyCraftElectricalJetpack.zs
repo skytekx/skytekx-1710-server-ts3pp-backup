@@ -1,0 +1,1 @@
+recipes.removeShaped(<GalaxySpace:item.JetPack>);

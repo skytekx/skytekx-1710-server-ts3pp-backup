@@ -17,7 +17,7 @@ Group=minecraft
 
 Nice=-20
 
-EnvironmentFile=-/opt/minecraft-server/skytekx/unit.conf
+EnvironmentFile=-/opt/minecraft-server/server/skytekx-server/unit.conf
 
 KillMode=none
 

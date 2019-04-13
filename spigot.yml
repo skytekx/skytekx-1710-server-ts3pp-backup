@@ -31,15 +31,15 @@ stats:
   disable-saving: false
   forced-stats: {}
 settings:
-  player-shuffle: 0
-  fullMatchRate: 10
-  netty-threads: 4
-  sample-count: 12
   bungeecord: false
   late-bind: false
+  netty-threads: 4
+  sample-count: 12
   timeout-time: 120
   restart-on-crash: true
   restart-script: ./RUN.sh
+  fullMatchRate: 10
+  player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
   save-user-cache-on-stop-only: false
@@ -52,36 +52,34 @@ world-settings:
   default:
     verbose: false
     arrow-despawn-rate: 1200
+    chunks-per-tick: 390
+    clear-tick-list: false
+    item-despawn-rate: 3900
+    enable-zombie-pigmen-portal-spawns: false
+    zombie-aggressive-towards-villager: true
+    view-distance: 7
     merge-radius:
       exp: 3.0
       item: 3.0
     use-async-lighting: true
-    view-distance: 7
-    item-despawn-rate: 3900
-    chunks-per-tick: 390
-    clear-tick-list: false
-    zombie-aggressive-towards-villager: true
-    enable-zombie-pigmen-portal-spawns: false
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 48
+    max-entity-collisions: 8
     mob-spawn-range: 3
-    random-light-updates: false
-    max-bulk-chunks: 10
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
       misc: 16
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    max-tick-time:
-      tile: 50
-      entity: 50
-    max-tnt-per-tick: 100
+    nerf-spawner-mobs: false
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -102,17 +100,19 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
     save-structure-info: true
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-    max-entity-collisions: 8
+    random-light-updates: false
+    max-tnt-per-tick: 100
+    max-bulk-chunks: 10
+    max-tick-time:
+      tile: 50
+      entity: 50
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 48
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0
     hopper-alt-ticking: false

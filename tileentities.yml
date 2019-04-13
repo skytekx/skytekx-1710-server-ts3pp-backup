@@ -22,13 +22,34 @@ debug:
 config-version: 1
 world-settings:
   default:
+    thaumcraft-common-tiles-TileNode:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
-    thaumcraft-common-tiles-TileNode:
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockMobSpawnerTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityEnchantmentTable:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockBannerStandTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-emoniph-witchery-blocks-BlockRefillingChestTileEntityRefillingChest:
       tick-no-players: false
       tick-interval: 1
     galaxyspace-BarnardsSystem-planets-barnardaC-tile-TileEntityBlockStalactite:
@@ -43,25 +64,16 @@ world-settings:
     vazkii-botania-common-block-tile-TileSpecialFlower:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
-      tick-no-players: false
-      tick-interval: 1
     thaumcraft-common-tiles-TileEldritchAltar:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileEldritchObelisk:
       tick-no-players: false
       tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
-      tick-no-players: false
-      tick-interval: 1
     tconstruct-smeltery-logic-CastingTableLogic:
       tick-no-players: false
       tick-interval: 1
     tconstruct-smeltery-logic-CastingBasinLogic:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     net-meteor-common-tileentity-TileEntityMeteorShield:
@@ -272,9 +284,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-teleport-telepad-TileTelePad:
-      tick-no-players: false
-      tick-interval: 1
-    com-chocolate-chocolateQuest-block-BlockMobSpawnerTileEntity:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-obelisk-aversion-TileAversionObelisk:
@@ -601,9 +610,6 @@ world-settings:
     vazkii-botania-common-block-tile-mana-TilePool:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityEnchantmentTable:
-      tick-no-players: false
-      tick-interval: 1
     thaumcraft-common-tiles-TileSensor:
       tick-no-players: false
       tick-interval: 1
@@ -713,9 +719,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityBeacon:
-      tick-no-players: false
-      tick-interval: 1
-    com-chocolate-chocolateQuest-block-BlockBannerStandTileEntity:
       tick-no-players: false
       tick-interval: 1
     codechicken-translocator-TileCraftingGrid:
@@ -1133,8 +1136,5 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-brandon3055-draconicevolution-common-tileentities-TilePlacedItem:
-      tick-no-players: false
-      tick-interval: 1
-    com-emoniph-witchery-blocks-BlockRefillingChestTileEntityRefillingChest:
       tick-no-players: false
       tick-interval: 1

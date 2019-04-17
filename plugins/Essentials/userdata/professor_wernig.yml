@@ -1,20 +1,21 @@
 lastlocation:
   world: world
-  x: -13.5
+  x: -14.0
   y: 103.0
-  z: -0.5
+  z: -1.0
   yaw: 0.0
-  pitch: 0.0
+  pitch: -0.15
 uuid: 700e3e9c-d4e4-429d-a5c1-6ab17e90c36f
 timestamps:
-  login: 1555437600651
-  lastteleport: 1555437605029
-  logout: 1555439407877
+  login: 1555541020198
+  lastteleport: 1555540133289
+  logout: 1555541033632
 ipAddress: 80.110.78.129
 logoutlocation:
   world: world
-  x: 6.477766690788363
-  y: 88.0
-  z: -48.723668196315906
-  yaw: -71.826416
-  pitch: 23.70041
+  x: 37.69742785817492
+  y: 101.0
+  z: 21.291075061664333
+  yaw: -309.9027
+  pitch: 31.65021
+afk: false

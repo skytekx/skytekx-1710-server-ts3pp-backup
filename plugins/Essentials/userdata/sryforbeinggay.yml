@@ -1,8 +1,8 @@
 uuid: af6718ae-82b8-4c41-a28e-a555707fa868
 timestamps:
-  login: 1555541024055
-  lastteleport: 1555539628186
-  logout: 1555540990829
+  login: 1555546391425
+  lastteleport: 1555543863206
+  logout: 1555547188097
 ipAddress: 178.112.211.69
 lastlocation:
   world: world
@@ -21,9 +21,9 @@ homes:
     pitch: 12.398985
 logoutlocation:
   world: world
-  x: -68.63270586536612
-  y: 105.0
-  z: -76.80170029027815
-  yaw: -240.6788
-  pitch: 36.011547
+  x: -70.52588263797188
+  y: 107.625
+  z: -76.1512601566076
+  yaw: 179.78766
+  pitch: 7.4999914
 afk: false

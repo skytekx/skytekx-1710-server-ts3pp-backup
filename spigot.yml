@@ -105,14 +105,14 @@ world-settings:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
-    zombie-aggressive-towards-villager: true
+    item-despawn-rate: 3900
     enable-zombie-pigmen-portal-spawns: false
-    view-distance: 7
     chunks-per-tick: 390
     clear-tick-list: false
     use-async-lighting: true
-    item-despawn-rate: 3900
+    view-distance: 7
     arrow-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0
     hopper-alt-ticking: false

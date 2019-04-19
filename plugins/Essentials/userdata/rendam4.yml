@@ -1,14 +1,14 @@
 lastlocation:
-  world: DIM7
-  x: -9.30000001192093
-  y: 31.0
-  z: -48.89225685822449
-  yaw: -109.22919
-  pitch: 40.350025
+  world: world
+  x: -14.0
+  y: 103.0
+  z: -1.0
+  yaw: -21.6
+  pitch: 18.449997
 uuid: 8b2e1e1c-e22c-4f47-93f6-0ee7640866bb
 timestamps:
-  login: 1555544215092
-  lastteleport: 1555544484626
+  login: 1555610434007
+  lastteleport: 1555617587665
   logout: 1555544168124
 ipAddress: 83.78.126.219
 logoutlocation:

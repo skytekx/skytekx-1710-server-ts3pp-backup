@@ -1,127 +1,125 @@
-[00:00:11] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
-[00:00:11] [Server thread/INFO]: Rcon: Stopping the server..
-[00:00:12] [Server thread/INFO]: [GG DEV]: Flushing data for GG Util
-[00:00:12] [Server thread/INFO]: [GG DEV]: Finished flushing data for GG Util
-[00:00:12] [Server thread/INFO]: Stopping server
-[00:00:12] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b699
-[00:00:12] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.13.1
-[00:00:12] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b691
-[00:00:13] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.13.1
-[00:00:13] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.13.1
-[00:00:13] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.13.1
-[00:00:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.13.1
-[00:00:13] [Server thread/INFO]: [SkyStoneGen] Disabling SkyStoneGen v3.2
-[00:00:13] [Server thread/INFO]: SkyStoneGen 3.2: SkyStone Disabled.
-[00:00:13] [Server thread/INFO]: Saving players
-[00:00:13] [Server thread/INFO]: EvilAntiSmiley lost connection: Server closed
-[00:00:13] [Server thread/INFO]: EvilAntiSmiley left the game.
-[00:00:13] [Server thread/INFO]: Saving worlds
-[00:00:13] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-100'/Underdark
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-37'/Spirit World
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-38'/Torment
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-39'/Mirror
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-42'/The Outer Lands
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-112'/The Last Millenium
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
-[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM4'/Dungeons
-[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM3'/Aether
-[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
-[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-30'/Asteroids
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1022'/Barnarda C
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1023'/Barnarda E
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1026'/Barnarda F
-[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1021'/α Centauri Bb
-[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1007'/Ceres
-[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1025'/Haumea
-[00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM-1009'/Kuiper Belt
-[00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM-1010'/Makemake
-[00:00:22] [Server thread/INFO]: Saving chunks for level 'DIM-29'/Mars
-[00:00:25] [Server thread/INFO]: Saving chunks for level 'DIM-1005'/Mercury
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1008'/Pluto
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1028'/τ Ceti E
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1027'/Vega B
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1006'/Venus
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1024'/Callisto
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1012'/Deimos
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1016'/Enceladus
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1014'/Europa
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1015'/Ganymede
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1013'/Io
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1029'/Miranda
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-28'/Moon
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1018'/Oberon
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1011'/Phobos
-[00:00:28] [Server thread/INFO]: Saving chunks for level 'DIM-1019'/Proteus
-[00:00:28] [Server thread/INFO]: Saving chunks for level 'DIM-1017'/Titan
-[00:00:28] [Server thread/INFO]: Saving chunks for level 'DIM-1020'/Triton
-[00:00:28] [Server thread/INFO]: Unloading dimension 0
-[00:00:28] [Server thread/INFO]: Unloading dimension -1
-[00:00:28] [Server thread/INFO]: Unloading dimension 1
-[00:00:28] [Server thread/INFO]: Unloading dimension -100
-[00:00:28] [Server thread/INFO]: Unloading dimension -112
-[00:00:28] [Server thread/INFO]: Unloading dimension -28
-[00:00:28] [Server thread/INFO]: Unloading dimension -29
-[00:00:28] [Server thread/INFO]: Unloading dimension -30
-[00:00:28] [Server thread/INFO]: Unloading dimension -37
-[00:00:28] [Server thread/INFO]: Unloading dimension -38
-[00:00:28] [Server thread/INFO]: Unloading dimension -39
-[00:00:28] [Server thread/INFO]: Unloading dimension -42
-[00:00:28] [Server thread/INFO]: Unloading dimension -1005
-[00:00:28] [Server thread/INFO]: Unloading dimension -1006
-[00:00:28] [Server thread/INFO]: Unloading dimension -1007
-[00:00:28] [Server thread/INFO]: Unloading dimension -1008
-[00:00:28] [Server thread/INFO]: Unloading dimension -1009
-[00:00:28] [Server thread/INFO]: Unloading dimension -1010
-[00:00:28] [Server thread/INFO]: Unloading dimension -1011
-[00:00:28] [Server thread/INFO]: Unloading dimension -1012
-[00:00:28] [Server thread/INFO]: Unloading dimension -1013
-[00:00:28] [Server thread/INFO]: Unloading dimension -1014
-[00:00:28] [Server thread/INFO]: Unloading dimension -1015
-[00:00:28] [Server thread/INFO]: Unloading dimension -1016
-[00:00:28] [Server thread/INFO]: Unloading dimension -1017
-[00:00:28] [Server thread/INFO]: Unloading dimension -1018
-[00:00:28] [Server thread/INFO]: Unloading dimension -1019
-[00:00:28] [Server thread/INFO]: Unloading dimension -1020
-[00:00:28] [Server thread/INFO]: Unloading dimension -1021
-[00:00:28] [Server thread/INFO]: Unloading dimension -1022
-[00:00:28] [Server thread/INFO]: Unloading dimension -1023
-[00:00:28] [Server thread/INFO]: Unloading dimension -1024
-[00:00:28] [Server thread/INFO]: Unloading dimension -1025
-[00:00:28] [Server thread/INFO]: Unloading dimension -1026
-[00:00:28] [Server thread/INFO]: Unloading dimension -1027
-[00:00:28] [Server thread/INFO]: Unloading dimension -1028
-[00:00:28] [Server thread/INFO]: Unloading dimension -1029
-[00:00:28] [Server thread/INFO]: Unloading dimension 4
-[00:00:28] [Server thread/INFO]: Unloading dimension 3
-[00:00:28] [Server thread/INFO]: Applying holder lookups
-[00:00:28] [Server thread/INFO]: Holder lookups applied
-[00:00:28] [pool-48-thread-1/INFO]: ServerChannelRegister: Dimensional Transceiver data saved to /opt/minecraft-server/server/skytekx-server/./world/enderio/dimensionalTransceiver.json
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -30
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1022
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1023
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1026
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1021
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1007
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1025
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1009
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1010
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -29
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1005
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1008
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1028
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1027
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1006
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1024
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1012
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1016
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1014
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1015
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1013
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1029
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -28
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1018
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1011
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1019
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1017
-[00:00:28] [Server thread/INFO]: Unregistered Dimension: -1020
+[00:00:03] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[00:00:03] [Server thread/INFO]: Rcon: Stopping the server..
+[00:00:03] [Server thread/INFO]: [GG DEV]: Flushing data for GG Util
+[00:00:03] [Server thread/INFO]: [GG DEV]: Finished flushing data for GG Util
+[00:00:06] [Server thread/INFO]: Stopping server
+[00:00:06] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b699
+[00:00:06] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.13.1
+[00:00:06] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b691
+[00:00:06] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.13.1
+[00:00:06] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.13.1
+[00:00:06] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.13.1
+[00:00:06] [Server thread/INFO]: [Essentials] Disabling Essentials v2.13.1
+[00:00:06] [Server thread/INFO]: [SkyStoneGen] Disabling SkyStoneGen v3.2
+[00:00:06] [Server thread/INFO]: SkyStoneGen 3.2: SkyStone Disabled.
+[00:00:06] [Server thread/INFO]: Saving players
+[00:00:06] [Server thread/INFO]: EvilAntiSmiley lost connection: Server closed
+[00:00:06] [Server thread/INFO]: EvilAntiSmiley left the game.
+[00:00:06] [Server thread/INFO]: Saving worlds
+[00:00:06] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[00:00:07] [Server thread/INFO]: Saving chunks for level 'DIM-100'/Underdark
+[00:00:07] [Server thread/INFO]: Saving chunks for level 'DIM-37'/Spirit World
+[00:00:07] [Server thread/INFO]: Saving chunks for level 'DIM-38'/Torment
+[00:00:07] [Server thread/INFO]: Saving chunks for level 'DIM-39'/Mirror
+[00:00:08] [Server thread/INFO]: Saving chunks for level 'DIM-42'/The Outer Lands
+[00:00:08] [Server thread/INFO]: Saving chunks for level 'DIM-112'/The Last Millenium
+[00:00:08] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
+[00:00:08] [Server thread/INFO]: Saving chunks for level 'DIM4'/Dungeons
+[00:00:09] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
+[00:00:10] [Server thread/INFO]: Saving chunks for level 'DIM-30'/Asteroids
+[00:00:10] [Server thread/INFO]: Saving chunks for level 'DIM-1022'/Barnarda C
+[00:00:10] [Server thread/INFO]: Saving chunks for level 'DIM-1023'/Barnarda E
+[00:00:10] [Server thread/INFO]: Saving chunks for level 'DIM-1026'/Barnarda F
+[00:00:10] [Server thread/INFO]: Saving chunks for level 'DIM-1021'/α Centauri Bb
+[00:00:11] [Server thread/INFO]: Saving chunks for level 'DIM-1007'/Ceres
+[00:00:11] [Server thread/INFO]: Saving chunks for level 'DIM-1025'/Haumea
+[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-1009'/Kuiper Belt
+[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-1010'/Makemake
+[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-29'/Mars
+[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-1005'/Mercury
+[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-1008'/Pluto
+[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-1028'/τ Ceti E
+[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-1027'/Vega B
+[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-1006'/Venus
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-1024'/Callisto
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-1012'/Deimos
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-1016'/Enceladus
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-1014'/Europa
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1015'/Ganymede
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1013'/Io
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1029'/Miranda
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-28'/Moon
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1018'/Oberon
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1011'/Phobos
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1019'/Proteus
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1017'/Titan
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1020'/Triton
+[00:00:17] [Server thread/INFO]: Unloading dimension 0
+[00:00:17] [Server thread/INFO]: Unloading dimension -1
+[00:00:17] [Server thread/INFO]: Unloading dimension 1
+[00:00:17] [Server thread/INFO]: Unloading dimension -100
+[00:00:17] [Server thread/INFO]: Unloading dimension -112
+[00:00:17] [Server thread/INFO]: Unloading dimension -28
+[00:00:17] [Server thread/INFO]: Unloading dimension -29
+[00:00:17] [Server thread/INFO]: Unloading dimension -30
+[00:00:17] [Server thread/INFO]: Unloading dimension -37
+[00:00:17] [Server thread/INFO]: Unloading dimension -38
+[00:00:17] [Server thread/INFO]: Unloading dimension -39
+[00:00:17] [Server thread/INFO]: Unloading dimension -42
+[00:00:17] [Server thread/INFO]: Unloading dimension -1005
+[00:00:17] [Server thread/INFO]: Unloading dimension -1006
+[00:00:17] [Server thread/INFO]: Unloading dimension -1007
+[00:00:17] [Server thread/INFO]: Unloading dimension -1008
+[00:00:17] [Server thread/INFO]: Unloading dimension -1009
+[00:00:17] [Server thread/INFO]: Unloading dimension -1010
+[00:00:17] [Server thread/INFO]: Unloading dimension -1011
+[00:00:17] [Server thread/INFO]: Unloading dimension -1012
+[00:00:17] [Server thread/INFO]: Unloading dimension -1013
+[00:00:17] [Server thread/INFO]: Unloading dimension -1014
+[00:00:17] [Server thread/INFO]: Unloading dimension -1015
+[00:00:17] [Server thread/INFO]: Unloading dimension -1016
+[00:00:17] [Server thread/INFO]: Unloading dimension -1017
+[00:00:17] [Server thread/INFO]: Unloading dimension -1018
+[00:00:17] [Server thread/INFO]: Unloading dimension -1019
+[00:00:17] [Server thread/INFO]: Unloading dimension -1020
+[00:00:17] [Server thread/INFO]: Unloading dimension -1021
+[00:00:17] [Server thread/INFO]: Unloading dimension -1022
+[00:00:17] [Server thread/INFO]: Unloading dimension -1023
+[00:00:17] [Server thread/INFO]: Unloading dimension -1024
+[00:00:17] [Server thread/INFO]: Unloading dimension -1025
+[00:00:17] [Server thread/INFO]: Unloading dimension -1026
+[00:00:17] [Server thread/INFO]: Unloading dimension -1027
+[00:00:17] [Server thread/INFO]: Unloading dimension -1028
+[00:00:17] [Server thread/INFO]: Unloading dimension -1029
+[00:00:17] [Server thread/INFO]: Unloading dimension 4
+[00:00:18] [Server thread/INFO]: Applying holder lookups
+[00:00:18] [Server thread/INFO]: Holder lookups applied
+[00:00:18] [pool-48-thread-1/INFO]: ServerChannelRegister: Dimensional Transceiver data saved to /opt/minecraft-server/server/skytekx-server/./world/enderio/dimensionalTransceiver.json
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -30
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1022
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1023
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1026
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1021
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1007
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1025
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1009
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1010
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -29
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1005
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1008
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1028
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1027
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1006
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1024
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1012
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1016
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1014
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1015
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1013
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1029
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -28
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1018
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1011
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1019
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1017
+[00:00:18] [Server thread/INFO]: Unregistered Dimension: -1020

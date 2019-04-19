@@ -2,7 +2,7 @@ worlds:
   DIM-42:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM-42
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -98,7 +98,7 @@ worlds:
   DIM-112:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM-112
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -146,7 +146,7 @@ worlds:
   DIM-100:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM-100
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -194,7 +194,7 @@ worlds:
   DIM-37:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM-37
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -242,7 +242,7 @@ worlds:
   DIM1:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM1
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -290,7 +290,7 @@ worlds:
   DIM-39:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM-39
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -338,7 +338,7 @@ worlds:
   DIM-38:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM-38
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -386,7 +386,7 @@ worlds:
   DIM3:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM3
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -482,7 +482,7 @@ worlds:
   DIM4:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DIM4
     color: WHITE
     style: NORMAL
     pvp: 'true'

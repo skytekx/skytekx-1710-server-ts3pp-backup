@@ -1,28 +1,28 @@
 lastlocation:
   world: world
-  x: -12.2385355662347
-  y: 106.35625975036966
-  z: -97.94134477967901
-  yaw: -77.181885
-  pitch: 15.634377
+  x: -124.72652212157146
+  y: 98.0
+  z: 780.5379071279659
+  yaw: -242.94824
+  pitch: 42.203533
 uuid: 1e93b9b9-ab82-44df-a787-044ba028aa7d
 timestamps:
-  login: 1555532213088
-  lastteleport: 1555533837018
+  login: 1555621147686
+  lastteleport: 1555618877387
   kits:
     essen: 1555503050410
     tools: 1555426994876
-  logout: 1555533963476
+  logout: 1555621174442
 ipAddress: 91.112.119.98
 nickname: Lee
 logoutlocation:
   world: world
-  x: -108.73724651538359
-  y: 71.0
-  z: -9.295461060666392
-  yaw: -1.8114929
-  pitch: 36.59999
-godmode: false
+  x: -63.920461973344175
+  y: 69.92973173967069
+  z: 9.269232263244604
+  yaw: -354.52942
+  pitch: 10.350029
+godmode: true
 afk: false
 homes:
   home:

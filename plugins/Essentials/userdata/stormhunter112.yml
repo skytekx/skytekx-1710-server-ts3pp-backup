@@ -4,22 +4,22 @@ lastlocation:
   y: 103.0
   z: -1.0
   yaw: 0.0
-  pitch: 0.45
+  pitch: 0.0
 uuid: 31e42b30-d5de-431b-80ff-7b31cad9c937
 timestamps:
-  login: 1555541841614
-  logout: 1555542030708
-  lastteleport: 1555540348600
+  login: 1555618415133
+  logout: 1555627456899
+  lastteleport: 1555626024060
   kits:
     tools: 1555526961419
 ipAddress: 217.236.156.32
 logoutlocation:
   world: world
-  x: 9.165609776505164
+  x: 4.018559766443734
   y: 85.0
-  z: -101.81956912623767
-  yaw: -126.78766
-  pitch: 25.650005
+  z: -99.94621635808024
+  yaw: 109.74826
+  pitch: 86.329025
 homes:
   home:
     world: world

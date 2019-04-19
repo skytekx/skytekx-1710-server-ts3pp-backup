@@ -335,54 +335,6 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  DIM3:
-    ==: MVWorld
-    hidden: 'false'
-    alias: DIM3
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: NORMAL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-      currency: '-1'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 103.0
-      y: 64.0
-      z: -73.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: AETHER
-    seed: '-3081015876145752727'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
   DIM-38:
     ==: MVWorld
     hidden: 'false'
@@ -431,10 +383,10 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  DIM4:
+  DIM3:
     ==: MVWorld
     hidden: 'false'
-    alias: DIM4
+    alias: DIM3
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -466,15 +418,15 @@ worlds:
     keepSpawnInMemory: 'false'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
+      x: 103.0
       y: 64.0
-      z: 0.0
+      z: -73.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: DUNGEONS
+    environment: AETHER
     seed: '-3081015876145752727'
     generator: 'null'
     playerLimit: '-1'
@@ -523,6 +475,54 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
+    seed: '-3081015876145752727'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  DIM4:
+    ==: MVWorld
+    hidden: 'false'
+    alias: DIM4
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: NORMAL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'false'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 64.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: DUNGEONS
     seed: '-3081015876145752727'
     generator: 'null'
     playerLimit: '-1'

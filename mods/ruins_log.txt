@@ -1,10 +1,10 @@
 
-Loading excluded list from: /opt/minecraft-server/server/skytekx-server/world/DIM-1020
+Loading excluded list from: /opt/minecraft-server/server/skytekx-server/world/DIM3
 No exclusions found for this world.
 
-Loading options from: /opt/minecraft-server/server/skytekx-server/world/DIM-1020
+Loading options from: /opt/minecraft-server/server/skytekx-server/world/DIM3
 tries_per_chunk_normal = 6
 chance_to_spawn_normal = 10.0
 templateInstancesMinDistance = 256.0
 anyRuinsMinDistance = 64.0
-Ruins mod loaded successfully for world ./world/DIM-1020, template files: 32
+Ruins mod loaded successfully for world ./world/DIM3, template files: 32

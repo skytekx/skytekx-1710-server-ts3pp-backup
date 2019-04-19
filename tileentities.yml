@@ -22,6 +22,9 @@ debug:
 config-version: 1
 world-settings:
   default:
+    net-meteor-common-tileentity-TileEntityMeteorShield:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
@@ -34,130 +37,16 @@ world-settings:
     net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
-    net-meteor-common-tileentity-TileEntityMeteorShield:
-      tick-no-players: false
-      tick-interval: 1
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
-    shukaro-artifice-tile-TileEntityNuclearBattery:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-capbank-TileCapBank:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-farm-TileFarmStation:
-      tick-no-players: false
-      tick-interval: 1
-    appeng-tile-misc-TileCharger:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityEnderChest:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-slicensplice-TileSliceAndSplice:
-      tick-no-players: false
-      tick-interval: 1
-    com-mark719-magicalcrops-furnace-TileEntityUltimateFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileTransposer:
-      tick-no-players: false
-      tick-interval: 1
-    appeng-tile-qnb-TileQuantumBridge:
-      tick-no-players: false
-      tick-interval: 1
-    com-nauktis-solarflux-blocks-SolarPanelTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-wireless-TileWirelessCharger:
-      tick-no-players: false
-      tick-interval: 1
-    advsolar-common-tiles-TileEntityUltimateSolarPanel:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-alloy-TileAlloySmelter:
+    exnihilo-blocks-tileentities-TileEntityLeavesInfested:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-machine-TileSmelter:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-ender-TileTesseract:
-      tick-no-players: false
-      tick-interval: 1
-    codechicken-enderstorage-storage-item-TileEnderChest:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TilePulverizer:
-      tick-no-players: false
-      tick-interval: 1
-    net-blay09-mods-excompressum-tile-TileEntityAutoCompressedHammer:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileCrucible:
-      tick-no-players: false
-      tick-interval: 1
-    advsolar-common-tiles-TileEntityMolecularTransformer:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-device-TileActivator:
-      tick-no-players: false
-      tick-interval: 1
-    net-blay09-mods-excompressum-tile-TileEntityAutoHeavySieveRF:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-crusher-TileCrusher:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-enderconstructor-TileEnderPillar:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    thaumcraft-common-tiles-TileNode:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-enderconstructor-TileEnderConstructor:
-      tick-no-players: false
-      tick-interval: 1
-    com-mia-props-common-entities-TileParticleEmitter:
-      tick-no-players: false
-      tick-interval: 1
-    exnihilo-blocks-tileentities-TileEntityBarrel:
-      tick-no-players: false
-      tick-interval: 1
-    appeng-tile-storage-TileChest:
-      tick-no-players: false
-      tick-interval: 1
-    com-brandon3055-draconicevolution-common-tileentities-TileGrinder:
-      tick-no-players: false
-      tick-interval: 1
-    com-brandon3055-draconicevolution-common-tileentities-TileCustomSpawner:
-      tick-no-players: false
-      tick-interval: 1
-    openblocks-common-tileentity-TileEntityVacuumHopper:
-      tick-no-players: false
-      tick-interval: 1
-    com-pam-harvestcraft-TileEntityMarket:
-      tick-no-players: false
-      tick-interval: 1
-    exnihilo-blocks-tileentities-TileEntitySieve:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-obelisk-xp-TileExperienceObelisk:
-      tick-no-players: false
-      tick-interval: 1
-    com-brandon3055-draconicevolution-common-tileentities-TileUpgradeModifier:
-      tick-no-players: false
-      tick-interval: 1
-    net-blay09-mods-excompressum-tile-TileEntityAutoCompressor:
-      tick-no-players: false
-      tick-interval: 1
-    exnihilo-blocks-tileentities-TileEntityLeavesInfested:
       tick-no-players: false
       tick-interval: 1
     tconstruct-smeltery-logic-CastingBasinLogic:
@@ -166,7 +55,7 @@ world-settings:
     net-minecraft-tileentity-TileEntityHopper:
       tick-no-players: false
       tick-interval: 1
-    WayofTime-alchemicalWizardry-common-tileEntity-TEAltar:
+    com-mark719-magicalcrops-furnace-TileEntityUltimateFurnace:
       tick-no-players: false
       tick-interval: 1
     cpw-mods-ironchest-TileEntityDiamondChest:
@@ -181,13 +70,76 @@ world-settings:
     tconstruct-smeltery-logic-SmelteryLogic:
       tick-no-players: false
       tick-interval: 1
+    net-blay09-mods-excompressum-tile-TileEntityAutoCompressor:
+      tick-no-players: false
+      tick-interval: 1
     net-blay09-mods-excompressum-tile-TileEntityAutoHammer:
       tick-no-players: false
       tick-interval: 1
     exnihilo-blocks-tileentities-TileEntityCrucible:
       tick-no-players: false
       tick-interval: 1
+    WayofTime-alchemicalWizardry-common-tileEntity-TEAltar:
+      tick-no-players: false
+      tick-interval: 1
     tconstruct-smeltery-logic-LavaTankLogic:
+      tick-no-players: false
+      tick-interval: 1
+    exnihilo-blocks-tileentities-TileEntityBarrel:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-storage-TileChest:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-ender-TileTesseract:
+      tick-no-players: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-tileentities-TileGrinder:
+      tick-no-players: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-tileentities-TileCustomSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    openblocks-common-tileentity-TileEntityVacuumHopper:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-farm-TileFarmStation:
+      tick-no-players: false
+      tick-interval: 1
+    com-pam-harvestcraft-TileEntityMarket:
+      tick-no-players: false
+      tick-interval: 1
+    com-nauktis-solarflux-blocks-SolarPanelTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-device-TileActivator:
+      tick-no-players: false
+      tick-interval: 1
+    exnihilo-blocks-tileentities-TileEntitySieve:
+      tick-no-players: false
+      tick-interval: 1
+    codechicken-enderstorage-storage-item-TileEnderChest:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-obelisk-xp-TileExperienceObelisk:
+      tick-no-players: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-tileentities-TileUpgradeModifier:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-enderconstructor-TileEnderPillar:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-enderconstructor-TileEnderConstructor:
+      tick-no-players: false
+      tick-interval: 1
+    com-mia-props-common-entities-TileParticleEmitter:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileNode:
       tick-no-players: false
       tick-interval: 1
     openblocks-common-tileentity-TileEntityTank:
@@ -202,10 +154,67 @@ world-settings:
     erogenousbeef-bigreactors-common-tileentity-TileEntityCyaniteReprocessor:
       tick-no-players: false
       tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileTransposer:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileCrucible:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-machine-TileFurnace:
       tick-no-players: false
       tick-interval: 1
+    cofh-thermalexpansion-block-machine-TilePulverizer:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-crusher-TileCrusher:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-alloy-TileAlloySmelter:
+      tick-no-players: false
+      tick-interval: 1
     blusunrize-immersiveengineering-common-blocks-metal-TileEntityChargingStation:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-misc-TileCharger:
+      tick-no-players: false
+      tick-interval: 1
+    shukaro-artifice-tile-TileEntityNuclearBattery:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-capbank-TileCapBank:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityEnderChest:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-slicensplice-TileSliceAndSplice:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-qnb-TileQuantumBridge:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-wireless-TileWirelessCharger:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-painter-TileEntityPainter:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityUltimateSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    net-blay09-mods-excompressum-tile-TileEntityAutoCompressedHammer:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityMolecularTransformer:
+      tick-no-players: false
+      tick-interval: 1
+    net-blay09-mods-excompressum-tile-TileEntityAutoHeavySieveRF:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-peripheral-modem-TileCable:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
@@ -224,6 +233,9 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     blusunrize-immersiveengineering-common-blocks-metal-TileEntityConnectorHV:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-peripheral-monitor-TileMonitor:
       tick-no-players: false
       tick-interval: 1
     powercrystals-minefactoryreloaded-tile-machine-TileEntityGrinder:
@@ -256,19 +268,7 @@ world-settings:
     com-whammich-sstow-tileentity-TileEntityForge:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-peripheral-monitor-TileMonitor:
-      tick-no-players: false
-      tick-interval: 1
-    dan200-computercraft-shared-peripheral-modem-TileCable:
-      tick-no-players: false
-      tick-interval: 1
     powercrystals-minefactoryreloaded-tile-machine-TileEntityDeepStorageUnit:
-      tick-no-players: false
-      tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
-      tick-no-players: false
-      tick-interval: 1
-    openblocks-common-tileentity-TileEntityXPDrain:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorRedFlux:
@@ -281,9 +281,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-brandon3055-draconicevolution-common-tileentities-TileEnergyInfuser:
-      tick-no-players: false
-      tick-interval: 1
-    openblocks-common-tileentity-TileEntityXPShower:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityDaylightDetector:
@@ -334,6 +331,30 @@ world-settings:
     ic2-core-block-machine-tileentity-TileEntityMetalFormer:
       tick-no-players: false
       tick-interval: 1
+    openblocks-common-tileentity-TileEntityXPDrain:
+      tick-no-players: false
+      tick-interval: 1
+    openblocks-common-tileentity-TileEntityXPShower:
+      tick-no-players: false
+      tick-interval: 1
+    buildcraft-builders-TileFiller:
+      tick-no-players: false
+      tick-interval: 1
+    openblocks-common-tileentity-TileEntityTrophy:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFFirefly:
+      tick-no-players: false
+      tick-interval: 1
+    twilightforest-tileentity-TileEntityTFCicada:
+      tick-no-players: false
+      tick-interval: 1
+    chanceCubes-tileentities-TileChanceD20:
+      tick-no-players: false
+      tick-interval: 1
+    com-mia-props-common-entities-TileSwitchableLamp:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityPiston:
       tick-no-players: false
       tick-interval: 1
@@ -344,9 +365,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityBrewingStand:
-      tick-no-players: false
-      tick-interval: 1
-    chanceCubes-tileentities-TileChanceD20:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileEldritchObelisk:
@@ -365,15 +383,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     powercrystals-minefactoryreloaded-tile-machine-TileEntityFisher:
-      tick-no-players: false
-      tick-interval: 1
-    openblocks-common-tileentity-TileEntityTrophy:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFFirefly:
-      tick-no-players: false
-      tick-interval: 1
-    twilightforest-tileentity-TileEntityTFCicada:
       tick-no-players: false
       tick-interval: 1
     buildcraft-factory-TileAutoWorkbench:
@@ -455,9 +464,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-brandon3055-draconicevolution-common-tileentities-TileWeatherController:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-painter-TileEntityPainter:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-soul-TileSoulBinder:
@@ -1193,9 +1199,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-mrcrayfish-furniture-tileentity-TileEntityBedsideCabinet:
-      tick-no-players: false
-      tick-interval: 1
-    com-mia-props-common-entities-TileSwitchableLamp:
       tick-no-players: false
       tick-interval: 1
     ic2-core-block-TileEntityBarrel:

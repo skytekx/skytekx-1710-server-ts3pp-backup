@@ -1,23 +1,23 @@
 uuid: 2c69470c-fdc1-41d8-9dfe-6a621ecb8441
 timestamps:
-  login: 1555673980244
-  logout: 1555667599214
-  lastteleport: 1555667202161
+  login: 1555710756211
+  logout: 1555710709799
+  lastteleport: 1555718349798
 ipAddress: 81.5.239.227
 lastlocation:
   world: world
-  x: -60.89118333329988
-  y: 80.0
-  z: 34.24642795641103
-  yaw: -178.64874
-  pitch: 80.84999
+  x: -14.0
+  y: 103.0
+  z: -1.0
+  yaw: 0.0
+  pitch: 0.0
 logoutlocation:
   world: world
-  x: -57.699999988079064
-  y: 75.0
-  z: 45.69999998807907
-  yaw: 177.44434
-  pitch: 75.45
+  x: -50.92929223440669
+  y: 64.0
+  z: 48.37721903467819
+  yaw: 17.047546
+  pitch: 36.900158
 afk: false
 homes:
   home:

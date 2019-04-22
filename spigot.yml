@@ -105,12 +105,12 @@ world-settings:
       monsters: 48
       misc: 32
       other: 48
-    enable-zombie-pigmen-portal-spawns: false
-    view-distance: 7
     chunks-per-tick: 390
     clear-tick-list: false
     use-async-lighting: true
+    view-distance: 7
     item-despawn-rate: 3900
+    enable-zombie-pigmen-portal-spawns: false
     arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
     dragon-death-sound-radius: 0

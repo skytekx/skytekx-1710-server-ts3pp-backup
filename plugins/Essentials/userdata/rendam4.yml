@@ -1,23 +1,23 @@
 lastlocation:
-  world: world
-  x: 39.5
-  y: 68.00199847221374
-  z: -15.5
-  yaw: 0.0
-  pitch: 0.0
+  world: Flat
+  x: 682.7952778873057
+  y: 10.980428653478938
+  z: -981.4562268431332
+  yaw: -159.33359
+  pitch: 4.180783
 uuid: 8b2e1e1c-e22c-4f47-93f6-0ee7640866bb
 timestamps:
-  login: 1555882861908
-  lastteleport: 1555882778332
-  logout: 1555882863189
+  login: 1555961047334
+  lastteleport: 1555931964810
+  logout: 1555934281524
 ipAddress: 83.78.126.219
 logoutlocation:
   world: world
-  x: 80.19328089762259
-  y: 83.0
-  z: 33.604408717317185
-  yaw: -176.99136
-  pitch: 41.25017
+  x: 72.19669343393028
+  y: 67.0
+  z: 2.30000001192093
+  yaw: -2.6422668
+  pitch: 36.900276
 afk: false
 homes:
   home:

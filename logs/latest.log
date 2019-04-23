@@ -1,219 +1,125 @@
-[00:00:08] [KCauldron version retrievier/WARN]: Error occured during retriving version
-java.lang.Throwable
-	at kcauldron.KLog.log(KLog.java:30) [KLog.class:1.7.10-R0.1-SNAPSHOT]
-	at kcauldron.KLog.warning(KLog.java:41) [KLog.class:1.7.10-R0.1-SNAPSHOT]
-	at kcauldron.updater.KVersionRetriever.uncaughtException(KVersionRetriever.java:114) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
-	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:108) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
-	at kcauldron.updater.KVersionRetriever.run(KVersionRetriever.java:69) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
-Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1964) ~[?:1.8.0_171]
-	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:328) ~[?:1.8.0_171]
-	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:322) ~[?:1.8.0_171]
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1614) ~[?:1.8.0_171]
-	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_171]
-	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1052) ~[?:1.8.0_171]
-	at sun.security.ssl.Handshaker.process_record(Handshaker.java:987) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397) ~[?:1.8.0_171]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
-	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
-	... 2 more
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:397) ~[?:1.8.0_171]
-	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:302) ~[?:1.8.0_171]
-	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_171]
-	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_171]
-	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_171]
-	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_171]
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1596) ~[?:1.8.0_171]
-	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_171]
-	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1052) ~[?:1.8.0_171]
-	at sun.security.ssl.Handshaker.process_record(Handshaker.java:987) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397) ~[?:1.8.0_171]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
-	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
-	... 2 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:1.8.0_171]
-	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:1.8.0_171]
-	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280) ~[?:1.8.0_171]
-	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:392) ~[?:1.8.0_171]
-	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:302) ~[?:1.8.0_171]
-	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_171]
-	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_171]
-	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_171]
-	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_171]
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1596) ~[?:1.8.0_171]
-	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_171]
-	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1052) ~[?:1.8.0_171]
-	at sun.security.ssl.Handshaker.process_record(Handshaker.java:987) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413) ~[?:1.8.0_171]
-	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397) ~[?:1.8.0_171]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
-	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
-	... 2 more
-[00:00:13] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
-[00:00:14] [Server thread/INFO]: Rcon: Stopping the server..
-[00:00:14] [Server thread/INFO]: [GG DEV]: Flushing data for GG Util
-[00:00:14] [Server thread/INFO]: [GG DEV]: Finished flushing data for GG Util
-[00:00:16] [Server thread/INFO]: Stopping server
-[00:00:16] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b699
-[00:00:16] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.13.1
-[00:00:16] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b691
-[00:00:16] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.13.1
-[00:00:16] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.13.1
-[00:00:16] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.13.1
-[00:00:16] [Server thread/INFO]: [Essentials] Disabling Essentials v2.13.1
-[00:00:16] [Server thread/INFO]: [SkyStoneGen] Disabling SkyStoneGen v3.2
-[00:00:16] [Server thread/INFO]: SkyStoneGen 3.2: SkyStone Disabled.
-[00:00:17] [Server thread/INFO]: Saving players
-[00:00:17] [Server thread/INFO]: Saving worlds
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-100'/Underdark
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-37'/Spirit World
-[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-38'/Torment
-[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-39'/Mirror
-[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-42'/The Outer Lands
-[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-112'/The Last Millenium
-[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
-[00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM4'/Dungeons
-[00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
-[00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM-30'/Asteroids
-[00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM-1022'/Barnarda C
-[00:00:21] [Server thread/INFO]: Saving chunks for level 'DIM-1023'/Barnarda E
-[00:00:21] [Server thread/INFO]: Saving chunks for level 'DIM-1026'/Barnarda F
-[00:00:22] [Server thread/INFO]: Saving chunks for level 'DIM-1021'/α Centauri Bb
-[00:00:22] [Server thread/INFO]: Saving chunks for level 'DIM-1007'/Ceres
-[00:00:22] [Server thread/INFO]: Saving chunks for level 'DIM-1025'/Haumea
-[00:00:23] [Server thread/INFO]: Saving chunks for level 'DIM-1009'/Kuiper Belt
-[00:00:23] [Server thread/INFO]: Saving chunks for level 'DIM-1010'/Makemake
-[00:00:24] [Server thread/INFO]: Saving chunks for level 'DIM-29'/Mars
-[00:00:25] [Server thread/INFO]: Saving chunks for level 'DIM-1005'/Mercury
-[00:00:25] [Server thread/INFO]: Saving chunks for level 'DIM-1008'/Pluto
-[00:00:25] [Server thread/INFO]: Saving chunks for level 'DIM-1028'/τ Ceti E
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1027'/Vega B
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1006'/Venus
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1024'/Callisto
-[00:00:26] [Server thread/INFO]: Saving chunks for level 'DIM-1012'/Deimos
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1016'/Enceladus
-[00:00:27] [Server thread/INFO]: Saving chunks for level 'DIM-1014'/Europa
-[00:00:28] [Server thread/INFO]: Saving chunks for level 'DIM-1015'/Ganymede
-[00:00:28] [Server thread/INFO]: Saving chunks for level 'DIM-1013'/Io
-[00:00:28] [Server thread/INFO]: Saving chunks for level 'DIM-1029'/Miranda
-[00:00:29] [Server thread/INFO]: Saving chunks for level 'DIM-28'/Moon
-[00:00:29] [Server thread/INFO]: Saving chunks for level 'DIM-1018'/Oberon
-[00:00:30] [Server thread/INFO]: Saving chunks for level 'DIM-1011'/Phobos
-[00:00:30] [Server thread/INFO]: Saving chunks for level 'DIM-1019'/Proteus
-[00:00:31] [Server thread/INFO]: Saving chunks for level 'DIM-1017'/Titan
-[00:00:31] [Server thread/INFO]: Saving chunks for level 'DIM-1020'/Triton
-[00:00:32] [Server thread/INFO]: Unloading dimension 0
-[00:00:32] [Server thread/INFO]: Unloading dimension -1
-[00:00:32] [Server thread/INFO]: Unloading dimension 1
-[00:00:32] [Server thread/INFO]: Unloading dimension -100
-[00:00:32] [Server thread/INFO]: Unloading dimension -112
-[00:00:32] [Server thread/INFO]: Unloading dimension -28
-[00:00:32] [Server thread/INFO]: Unloading dimension -29
-[00:00:32] [Server thread/INFO]: Unloading dimension -30
-[00:00:32] [Server thread/INFO]: Unloading dimension -37
-[00:00:32] [Server thread/INFO]: Unloading dimension -38
-[00:00:32] [Server thread/INFO]: Unloading dimension -39
-[00:00:32] [Server thread/INFO]: Unloading dimension -42
-[00:00:32] [Server thread/INFO]: Unloading dimension -1005
-[00:00:32] [Server thread/INFO]: Unloading dimension -1006
-[00:00:32] [Server thread/INFO]: Unloading dimension -1007
-[00:00:32] [Server thread/INFO]: Unloading dimension -1008
-[00:00:32] [Server thread/INFO]: Unloading dimension -1009
-[00:00:32] [Server thread/INFO]: Unloading dimension -1010
-[00:00:32] [Server thread/INFO]: Unloading dimension -1011
-[00:00:32] [Server thread/INFO]: Unloading dimension -1012
-[00:00:32] [Server thread/INFO]: Unloading dimension -1013
-[00:00:32] [Server thread/INFO]: Unloading dimension -1014
-[00:00:32] [Server thread/INFO]: Unloading dimension -1015
-[00:00:32] [Server thread/INFO]: Unloading dimension -1016
-[00:00:32] [Server thread/INFO]: Unloading dimension -1017
-[00:00:32] [Server thread/INFO]: Unloading dimension -1018
-[00:00:32] [Server thread/INFO]: Unloading dimension -1019
-[00:00:32] [Server thread/INFO]: Unloading dimension -1020
-[00:00:32] [Server thread/INFO]: Unloading dimension -1021
-[00:00:32] [Server thread/INFO]: Unloading dimension -1022
-[00:00:32] [Server thread/INFO]: Unloading dimension -1023
-[00:00:32] [Server thread/INFO]: Unloading dimension -1024
-[00:00:32] [Server thread/INFO]: Unloading dimension -1025
-[00:00:32] [Server thread/INFO]: Unloading dimension -1026
-[00:00:32] [Server thread/INFO]: Unloading dimension -1027
-[00:00:32] [Server thread/INFO]: Unloading dimension -1028
-[00:00:32] [Server thread/INFO]: Unloading dimension -1029
-[00:00:32] [Server thread/INFO]: Unloading dimension 4
-[00:00:32] [Server thread/INFO]: Applying holder lookups
-[00:00:32] [Server thread/INFO]: Holder lookups applied
-[00:00:32] [pool-47-thread-1/INFO]: ServerChannelRegister: Dimensional Transceiver data saved to /opt/minecraft-server/server/skytekx-server/./world/enderio/dimensionalTransceiver.json
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -30
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1022
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1023
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1026
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1021
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1007
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1025
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1009
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1010
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -29
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1005
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1008
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1028
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1027
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1006
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1024
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1012
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1016
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1014
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1015
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1013
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1029
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -28
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1018
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1011
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1019
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1017
-[00:00:32] [Server thread/INFO]: Unregistered Dimension: -1020
+[00:00:08] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[00:00:09] [Server thread/INFO]: Rcon: Stopping the server..
+[00:00:10] [Server thread/INFO]: [GG DEV]: Flushing data for GG Util
+[00:00:10] [Server thread/INFO]: [GG DEV]: Finished flushing data for GG Util
+[00:00:10] [Server thread/INFO]: Stopping server
+[00:00:10] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b699
+[00:00:10] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.13.1
+[00:00:10] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b691
+[00:00:10] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.13.1
+[00:00:10] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.13.1
+[00:00:10] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.13.1
+[00:00:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.13.1
+[00:00:10] [Server thread/INFO]: [SkyStoneGen] Disabling SkyStoneGen v3.2
+[00:00:10] [Server thread/INFO]: SkyStoneGen 3.2: SkyStone Disabled.
+[00:00:10] [Server thread/INFO]: Saving players
+[00:00:10] [Server thread/INFO]: Saving worlds
+[00:00:10] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[00:00:11] [Server thread/INFO]: Saving chunks for level 'DIM-100'/Underdark
+[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-37'/Spirit World
+[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-38'/Torment
+[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-39'/Mirror
+[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-42'/The Outer Lands
+[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-112'/The Last Millenium
+[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM7'/Twilight Forest
+[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM4'/Dungeons
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-30'/Asteroids
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1022'/Barnarda C
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1023'/Barnarda E
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1026'/Barnarda F
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1021'/α Centauri Bb
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1007'/Ceres
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1025'/Haumea
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1009'/Kuiper Belt
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1010'/Makemake
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-29'/Mars
+[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1005'/Mercury
+[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1008'/Pluto
+[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1028'/τ Ceti E
+[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1027'/Vega B
+[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1006'/Venus
+[00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM-1024'/Callisto
+[00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM-1012'/Deimos
+[00:00:21] [Server thread/INFO]: Saving chunks for level 'DIM-1016'/Enceladus
+[00:00:21] [Server thread/INFO]: Saving chunks for level 'DIM-1014'/Europa
+[00:00:22] [Server thread/INFO]: Saving chunks for level 'DIM-1015'/Ganymede
+[00:00:22] [Server thread/INFO]: Saving chunks for level 'DIM-1013'/Io
+[00:00:23] [Server thread/INFO]: Saving chunks for level 'DIM-1029'/Miranda
+[00:00:23] [Server thread/INFO]: Saving chunks for level 'DIM-28'/Moon
+[00:00:23] [Server thread/INFO]: Saving chunks for level 'DIM-1018'/Oberon
+[00:00:24] [Server thread/INFO]: Saving chunks for level 'DIM-1011'/Phobos
+[00:00:24] [Server thread/INFO]: Saving chunks for level 'DIM-1019'/Proteus
+[00:00:24] [Server thread/INFO]: Saving chunks for level 'DIM-1017'/Titan
+[00:00:24] [Server thread/INFO]: Saving chunks for level 'DIM-1020'/Triton
+[00:00:26] [Server thread/INFO]: Unloading dimension 0
+[00:00:26] [Server thread/INFO]: Unloading dimension -1
+[00:00:26] [Server thread/INFO]: Unloading dimension 1
+[00:00:26] [Server thread/INFO]: Unloading dimension -100
+[00:00:26] [Server thread/INFO]: Unloading dimension -112
+[00:00:26] [Server thread/INFO]: Unloading dimension -28
+[00:00:26] [Server thread/INFO]: Unloading dimension -29
+[00:00:26] [Server thread/INFO]: Unloading dimension -30
+[00:00:26] [Server thread/INFO]: Unloading dimension -37
+[00:00:26] [Server thread/INFO]: Unloading dimension -38
+[00:00:26] [Server thread/INFO]: Unloading dimension -39
+[00:00:26] [Server thread/INFO]: Unloading dimension -42
+[00:00:26] [Server thread/INFO]: Unloading dimension -1005
+[00:00:26] [Server thread/INFO]: Unloading dimension -1006
+[00:00:26] [Server thread/INFO]: Unloading dimension -1007
+[00:00:26] [Server thread/INFO]: Unloading dimension -1008
+[00:00:26] [Server thread/INFO]: Unloading dimension -1009
+[00:00:26] [Server thread/INFO]: Unloading dimension -1010
+[00:00:26] [Server thread/INFO]: Unloading dimension -1011
+[00:00:26] [Server thread/INFO]: Unloading dimension -1012
+[00:00:26] [Server thread/INFO]: Unloading dimension -1013
+[00:00:26] [Server thread/INFO]: Unloading dimension -1014
+[00:00:26] [Server thread/INFO]: Unloading dimension -1015
+[00:00:26] [Server thread/INFO]: Unloading dimension -1016
+[00:00:26] [Server thread/INFO]: Unloading dimension -1017
+[00:00:26] [Server thread/INFO]: Unloading dimension -1018
+[00:00:26] [Server thread/INFO]: Unloading dimension -1019
+[00:00:26] [Server thread/INFO]: Unloading dimension -1020
+[00:00:26] [Server thread/INFO]: Unloading dimension -1021
+[00:00:26] [Server thread/INFO]: Unloading dimension -1022
+[00:00:26] [Server thread/INFO]: Unloading dimension -1023
+[00:00:26] [Server thread/INFO]: Unloading dimension -1024
+[00:00:26] [Server thread/INFO]: Unloading dimension -1025
+[00:00:26] [Server thread/INFO]: Unloading dimension -1026
+[00:00:26] [Server thread/INFO]: Unloading dimension -1027
+[00:00:26] [Server thread/INFO]: Unloading dimension -1028
+[00:00:26] [Server thread/INFO]: Unloading dimension -1029
+[00:00:26] [Server thread/INFO]: Unloading dimension 7
+[00:00:26] [Server thread/INFO]: Unloading dimension 4
+[00:00:26] [Server thread/INFO]: Applying holder lookups
+[00:00:26] [Server thread/INFO]: Holder lookups applied
+[00:00:26] [pool-47-thread-1/INFO]: ServerChannelRegister: Dimensional Transceiver data saved to /opt/minecraft-server/server/skytekx-server/./world/enderio/dimensionalTransceiver.json
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -30
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1022
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1023
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1026
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1021
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1007
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1025
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1009
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1010
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -29
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1005
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1008
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1028
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1027
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1006
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1024
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1012
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1016
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1014
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1015
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1013
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1029
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -28
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1018
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1011
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1019
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1017
+[00:00:26] [Server thread/INFO]: Unregistered Dimension: -1020

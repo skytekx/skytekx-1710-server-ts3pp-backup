@@ -29,6 +29,13 @@ settings:
   moved-too-quickly-multiplier: 39
   global-api-cache: true
   item-dirty-ticks: 39
+messages:
+  restart: Server is restarting
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Nice Try ^^ Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {}
+  outdated-server: Outdated server! I'm still on {}
 commands:
   log: true
   tab-complete: true
@@ -38,28 +45,19 @@ commands:
   - setblock
   - summon
   - testforblock
-messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Nice Try ^^ Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {}
-  outdated-server: Outdated server! I'm still on {}
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: false
+    mob-spawn-range: 3
     entity-tracking-range:
       players: 48
       animals: 48
       monsters: 48
       misc: 32
       other: 48
-    mob-spawn-range: 3
-    random-light-updates: false
-    save-structure-info: true
     merge-radius:
       item: 3.0
       exp: 3.0
@@ -99,20 +97,22 @@ world-settings:
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
+    random-light-updates: false
+    save-structure-info: true
     max-bulk-chunks: 10
     max-entity-collisions: 8
     max-tick-time:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
-    use-async-lighting: true
+    view-distance: 7
     chunks-per-tick: 390
     clear-tick-list: false
-    enable-zombie-pigmen-portal-spawns: false
-    view-distance: 7
-    item-despawn-rate: 3900
-    arrow-despawn-rate: 1200
+    use-async-lighting: true
     zombie-aggressive-towards-villager: true
+    item-despawn-rate: 3900
+    enable-zombie-pigmen-portal-spawns: false
+    arrow-despawn-rate: 1200
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0
     hopper-alt-ticking: false

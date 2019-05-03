@@ -51,13 +51,13 @@ stats:
 world-settings:
   default:
     verbose: false
-    mob-spawn-range: 3
     entity-tracking-range:
       players: 48
       animals: 48
       monsters: 48
       misc: 32
       other: 48
+    mob-spawn-range: 3
     merge-radius:
       item: 3.0
       exp: 3.0
@@ -105,12 +105,12 @@ world-settings:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
+    enable-zombie-pigmen-portal-spawns: false
+    view-distance: 7
     chunks-per-tick: 390
     clear-tick-list: false
-    view-distance: 7
     use-async-lighting: true
     item-despawn-rate: 3900
-    enable-zombie-pigmen-portal-spawns: false
     arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
     dragon-death-sound-radius: 0

@@ -58,33 +58,9 @@ world-settings:
       misc: 32
       other: 48
     mob-spawn-range: 3
-    nerf-spawner-mobs: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    random-light-updates: false
     merge-radius:
       item: 3.0
       exp: 3.0
-    save-structure-info: true
-    max-bulk-chunks: 10
-    max-entity-collisions: 8
-    max-tick-time:
-      tile: 50
-      entity: 50
-    max-tnt-per-tick: 100
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -105,13 +81,37 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    view-distance: 7
+    nerf-spawner-mobs: false
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 10
+    max-entity-collisions: 8
+    max-tick-time:
+      tile: 50
+      entity: 50
+    max-tnt-per-tick: 100
+    arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: false
     chunks-per-tick: 390
     clear-tick-list: false
+    view-distance: 7
     use-async-lighting: true
     item-despawn-rate: 3900
-    arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0

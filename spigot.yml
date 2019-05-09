@@ -19,8 +19,8 @@ settings:
   restart-on-crash: true
   restart-script: ./RUN.sh
   netty-threads: 4
-  player-shuffle: 0
   fullMatchRate: 10
+  player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
   save-user-cache-on-stop-only: false
@@ -105,14 +105,14 @@ world-settings:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
-    arrow-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: false
+    view-distance: 7
     chunks-per-tick: 390
     clear-tick-list: false
-    view-distance: 7
     use-async-lighting: true
     item-despawn-rate: 3900
-    zombie-aggressive-towards-villager: true
+    arrow-despawn-rate: 1200
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0
     hopper-alt-ticking: false

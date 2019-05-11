@@ -11,6 +11,24 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+settings:
+  bungeecord: false
+  late-bind: false
+  sample-count: 12
+  timeout-time: 120
+  restart-on-crash: true
+  restart-script: ./RUN.sh
+  netty-threads: 4
+  fullMatchRate: 10
+  player-shuffle: 0
+  filter-creative-items: true
+  user-cache-size: 1000
+  save-user-cache-on-stop-only: false
+  int-cache-limit: 1024
+  moved-wrongly-threshold: 0.0939
+  moved-too-quickly-multiplier: 39
+  global-api-cache: true
+  item-dirty-ticks: 39
 commands:
   log: true
   tab-complete: true
@@ -20,24 +38,6 @@ commands:
   - setblock
   - summon
   - testforblock
-settings:
-  late-bind: false
-  sample-count: 12
-  timeout-time: 120
-  restart-on-crash: true
-  restart-script: ./RUN.sh
-  netty-threads: 4
-  bungeecord: false
-  player-shuffle: 0
-  fullMatchRate: 10
-  filter-creative-items: true
-  user-cache-size: 1000
-  save-user-cache-on-stop-only: false
-  int-cache-limit: 1024
-  moved-wrongly-threshold: 0.0939
-  moved-too-quickly-multiplier: 39
-  global-api-cache: true
-  item-dirty-ticks: 39
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
@@ -57,6 +57,7 @@ world-settings:
       monsters: 48
       misc: 32
       other: 48
+    mob-spawn-range: 3
     merge-radius:
       item: 3.0
       exp: 3.0
@@ -104,15 +105,14 @@ world-settings:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
-    mob-spawn-range: 3
-    arrow-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
+    view-distance: 7
+    enable-zombie-pigmen-portal-spawns: false
     chunks-per-tick: 390
     clear-tick-list: false
-    enable-zombie-pigmen-portal-spawns: false
-    view-distance: 7
     use-async-lighting: true
     item-despawn-rate: 3900
-    zombie-aggressive-towards-villager: true
+    arrow-despawn-rate: 1200
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0
     hopper-alt-ticking: false

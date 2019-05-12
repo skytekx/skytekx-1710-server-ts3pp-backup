@@ -19,8 +19,8 @@ settings:
   restart-on-crash: true
   restart-script: ./RUN.sh
   netty-threads: 4
-  fullMatchRate: 10
   player-shuffle: 0
+  fullMatchRate: 10
   filter-creative-items: true
   user-cache-size: 1000
   save-user-cache-on-stop-only: false
@@ -61,6 +61,23 @@ world-settings:
     merge-radius:
       item: 3.0
       exp: 3.0
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    random-light-updates: false
+    save-structure-info: true
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -82,37 +99,20 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    random-light-updates: false
-    save-structure-info: true
     max-bulk-chunks: 10
     max-entity-collisions: 8
     max-tick-time:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
-    zombie-aggressive-towards-villager: true
-    view-distance: 7
+    item-despawn-rate: 3900
     enable-zombie-pigmen-portal-spawns: false
     chunks-per-tick: 390
     clear-tick-list: false
+    view-distance: 7
     use-async-lighting: true
-    item-despawn-rate: 3900
     arrow-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0
     hopper-alt-ticking: false

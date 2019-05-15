@@ -12,8 +12,8 @@
 
 config-version: 7
 settings:
-  netty-threads: 4
   bungeecord: false
+  netty-threads: 4
   late-bind: false
   sample-count: 12
   timeout-time: 120
@@ -51,6 +51,7 @@ stats:
 world-settings:
   default:
     verbose: false
+    mob-spawn-range: 3
     merge-radius:
       item: 3.0
       exp: 3.0
@@ -104,11 +105,10 @@ world-settings:
       monsters: 48
       misc: 32
       other: 48
-    mob-spawn-range: 3
-    enable-zombie-pigmen-portal-spawns: false
     view-distance: 7
     chunks-per-tick: 390
     clear-tick-list: false
+    enable-zombie-pigmen-portal-spawns: false
     use-async-lighting: true
     item-despawn-rate: 3900
     arrow-despawn-rate: 1200

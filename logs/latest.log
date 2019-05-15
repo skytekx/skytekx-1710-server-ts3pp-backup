@@ -1,166 +1,166 @@
-[00:00:08] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
-[00:00:10] [Server thread/INFO]: Rcon: Stopping the server..
-[00:00:10] [Server thread/INFO]: [GG DEV]: Flushing data for GG Util
-[00:00:10] [Server thread/INFO]: [GG DEV]: Finished flushing data for GG Util
-[00:00:11] [Server thread/INFO]: Stopping server
-[00:00:11] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b699
-[00:00:11] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.13.1
-[00:00:11] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b691
-[00:00:11] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.13.1
-[00:00:11] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.13.1
-[00:00:11] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.13.1
-[00:00:11] [Server thread/INFO]: [Essentials] Disabling Essentials v2.13.1
-[00:00:11] [Server thread/INFO]: [SkyStoneGen] Disabling SkyStoneGen v3.2
-[00:00:11] [Server thread/INFO]: SkyStoneGen 3.2: SkyStone Disabled.
-[00:00:11] [Server thread/INFO]: Saving players
-[00:00:11] [Server thread/INFO]: Saving worlds
-[00:00:11] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[00:00:11] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:11] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:12] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:12] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:12] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:12] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:12] [Server thread/INFO]: Saving chunks for level 'DIM-100'/Underdark
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-37'/Spirit World
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-38'/Torment
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-39'/Mirror
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:13] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:13] [Server thread/INFO]: Saving chunks for level 'DIM-42'/The Outer Lands
+[00:00:13] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[00:00:13] [Server thread/INFO]: Rcon: Stopping the server..
+[00:00:13] [Server thread/INFO]: [GG DEV]: Flushing data for GG Util
+[00:00:13] [Server thread/INFO]: [GG DEV]: Finished flushing data for GG Util
+[00:00:13] [Server thread/INFO]: Stopping server
+[00:00:13] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b699
+[00:00:13] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.13.1
+[00:00:14] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b691
+[00:00:14] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.13.1
+[00:00:14] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.13.1
+[00:00:14] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.13.1
+[00:00:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.13.1
+[00:00:14] [Server thread/INFO]: [SkyStoneGen] Disabling SkyStoneGen v3.2
+[00:00:14] [Server thread/INFO]: SkyStoneGen 3.2: SkyStone Disabled.
+[00:00:14] [Server thread/INFO]: Saving players
+[00:00:14] [Server thread/INFO]: Saving worlds
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-112'/The Last Millenium
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-100'/Underdark
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM7'/Twilight Forest
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-37'/Spirit World
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM4'/Dungeons
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-30'/Asteroids
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:14] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:14] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1022'/Barnarda C
+[00:00:14] [Server thread/INFO]: Saving chunks for level 'DIM-38'/Torment
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1023'/Barnarda E
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-39'/Mirror
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1026'/Barnarda F
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-42'/The Outer Lands
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1021'/α Centauri Bb
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-112'/The Last Millenium
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1007'/Ceres
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM7'/Twilight Forest
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1025'/Haumea
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
+[00:00:15] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:15] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:15] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:15] [Server thread/INFO]: Saving chunks for level 'DIM4'/Dungeons
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1009'/Kuiper Belt
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1010'/Makemake
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-30'/Asteroids
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-29'/Mars
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1022'/Barnarda C
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1023'/Barnarda E
+[00:00:16] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:16] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:16] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:16] [Server thread/INFO]: Saving chunks for level 'DIM-1026'/Barnarda F
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1021'/α Centauri Bb
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1007'/Ceres
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1025'/Haumea
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1009'/Kuiper Belt
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1010'/Makemake
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-29'/Mars
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1005'/Mercury
 [00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
@@ -169,33 +169,33 @@
 [00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1008'/Pluto
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1028'/τ Ceti E
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1027'/Vega B
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving chunks for level 'DIM-1006'/Venus
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:17] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:17] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1028'/τ Ceti E
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1027'/Vega B
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1006'/Venus
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1024'/Callisto
 [00:00:18] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
@@ -203,27 +203,27 @@
 [00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1012'/Deimos
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1016'/Enceladus
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving chunks for level 'DIM-1014'/Europa
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:18] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:18] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1012'/Deimos
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1016'/Enceladus
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1014'/Europa
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-1015'/Ganymede
 [00:00:19] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
@@ -246,12 +246,12 @@
 [00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:19] [Server thread/INFO]: Saving chunks for level 'DIM-28'/Moon
-[00:00:19] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:19] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:19] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:20] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:20] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:20] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:20] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:20] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:20] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM-1018'/Oberon
 [00:00:20] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
 [00:00:20] [Server thread/INFO]: Saved spacerace team data OK.
@@ -281,12 +281,12 @@
 [00:00:20] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
 [00:00:20] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:20] [Server thread/INFO]: Saving chunks for level 'DIM-1020'/Triton
-[00:00:20] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
-[00:00:20] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:20] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:20] [Server thread/INFO]: Saved spacerace team data OK.
-[00:00:20] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
-[00:00:20] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:21] [Server thread/INFO]: Saving spacerace data for team Elfanta Housen
+[00:00:21] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:21] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:21] [Server thread/INFO]: Saved spacerace team data OK.
+[00:00:21] [Server thread/INFO]: Saving spacerace data for team Unnamed Team
+[00:00:21] [Server thread/INFO]: Saved spacerace team data OK.
 [00:00:22] [Server thread/INFO]: Unloading dimension 0
 [00:00:22] [Server thread/INFO]: Unloading dimension -1
 [00:00:22] [Server thread/INFO]: Unloading dimension 1

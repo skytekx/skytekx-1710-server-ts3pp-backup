@@ -11,14 +11,23 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+commands:
+  log: true
+  tab-complete: true
+  send-namespaced: true
+  silent-commandblock-console: true
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
 settings:
-  bungeecord: false
-  netty-threads: 4
   late-bind: false
   sample-count: 12
   timeout-time: 120
   restart-on-crash: true
   restart-script: ./RUN.sh
+  netty-threads: 4
+  bungeecord: false
   player-shuffle: 0
   fullMatchRate: 10
   filter-creative-items: true
@@ -29,15 +38,6 @@ settings:
   moved-too-quickly-multiplier: 39
   global-api-cache: true
   item-dirty-ticks: 39
-commands:
-  log: true
-  tab-complete: true
-  send-namespaced: true
-  silent-commandblock-console: true
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
@@ -105,13 +105,13 @@ world-settings:
       monsters: 48
       misc: 32
       other: 48
+    arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: false
     view-distance: 7
     chunks-per-tick: 390
     clear-tick-list: false
-    enable-zombie-pigmen-portal-spawns: false
     use-async-lighting: true
     item-despawn-rate: 3900
-    arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
     dragon-death-sound-radius: 0
     wither-spawn-sound-radius: 0

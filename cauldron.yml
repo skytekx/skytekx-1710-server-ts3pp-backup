@@ -173,13 +173,13 @@ world-environment-settings:
     keep-world-loaded: false
     enabled: true
   twilightforest:
-    keep-world-loaded: false
+    keep-world-loaded: true
     enabled: true
   orbit:
     keep-world-loaded: false
     enabled: true
   marsss:
-    keep-world-loaded: true
+    keep-world-loaded: false
   venusss:
     keep-world-loaded: false
   dreamworld:
@@ -195,83 +195,83 @@ world-environment-settings:
     keep-world-loaded: false
     enabled: true
   barnardac:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   barnardae:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   barnardaf:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   acentauri:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   ceres:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   haumea:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   kuiper:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   makemake:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   mars:
     keep-world-loaded: false
     enabled: true
   mercury:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   pluto:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   tcetie:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   vegab:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   venus:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   callisto:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   deimos:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   enceladus:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   europa:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   ganymede:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   io:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   miranda:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   moon:
     keep-world-loaded: false
     enabled: true
   oberon:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   phobos:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   proteus:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   titan:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true
   triton:
-    keep-world-loaded: true
+    keep-world-loaded: false
     enabled: true

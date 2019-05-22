@@ -48,7 +48,7 @@ adduser minecraft --system --group --home /opt/minecraft-server --disabled-login
 ```
 For security reasons we will create the minecraft server in /opt.
 ```bash
-mkdir -p /opt/minecraft/{backup/server,build/mcrcon,server}
+mkdir -p /opt/minecraft-server/{backup/server,build/mcrcon,server}
 ```
 
 
@@ -105,7 +105,7 @@ Last but not least, we should set up a firewall to prevent randoms from loging i
 sed -i 's/IPV6=yes/IPV6=no/g' /etc/default/ufw
 ```
 ```bash
-ufw allow 21/tcp
+ufw allow 22/tcp
 ```
 ```bash
 ufw allow 25565/tcp

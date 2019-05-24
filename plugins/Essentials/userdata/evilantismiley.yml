@@ -1,25 +1,25 @@
 uuid: c811ffa1-cfcd-44bf-a87c-64a8a0cc7518
 timestamps:
-  login: 1558646920246
-  lastteleport: 1558648725556
-  logout: 1558646648388
+  login: 1558653596212
+  lastteleport: 1558654467460
+  logout: 1558654728837
   kits:
     tools: 1555748319350
 ipAddress: 77.116.216.119
 lastlocation:
-  world: world
-  x: -81.99836977136933
-  y: 96.69375
-  z: -65.33163896687665
-  yaw: 285.1491
-  pitch: -2.99999
+  world: DUNGEONS
+  x: 422.0
+  y: 28.0
+  z: -1.3000000119209285
+  yaw: 181.34999
+  pitch: 19.5
 logoutlocation:
-  world: world
-  x: -13.5
-  y: 96.0
-  z: 3.5
-  yaw: -69.600555
-  pitch: 13.199999
+  world: AETHER
+  x: -966.2557860781891
+  y: 126.49497541858892
+  z: -925.2632389136103
+  yaw: 183.74896
+  pitch: 7.199984
 afk: false
 homes:
   nt:

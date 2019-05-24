@@ -1,23 +1,23 @@
 uuid: 532b1cd0-97b3-44e8-9a4a-2459464b5cef
 timestamps:
-  login: 1558648300292
-  logout: 1558648255411
-  lastteleport: 1558648740511
+  login: 1558654513695
+  logout: 1558655189240
+  lastteleport: 1558654519628
 ipAddress: 91.141.3.123
 lastlocation:
-  world: world
-  x: -13.636589549929143
-  y: 97.0
-  z: 8.163780760612026
-  yaw: -88.350365
-  pitch: 12.449999
+  world: DUNGEONS
+  x: 579.3000000119209
+  y: 44.0
+  z: -5.056342706084251
+  yaw: -58.350002
+  pitch: 16.8
 logoutlocation:
-  world: DIM-1
-  x: 664.2655201023392
-  y: 67.0
-  z: -112.92740158327803
-  yaw: -203.96565
-  pitch: 1.9498448
+  world: world
+  x: 111.26761166863871
+  y: 106.0
+  z: 9.088685262913707
+  yaw: -187.34789
+  pitch: 17.249979
 homes:
   home:
     world: DIM-1

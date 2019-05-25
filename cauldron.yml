@@ -70,52 +70,53 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-ExtrabiomesXL-CatTailGenerator: true
-    worldgen-necromancy-WorldGenerator: true
-    worldgen-harvestcraft-PamGardenGenerator: true
-    worldgen-chocolateQuest-WorldGeneratorNew: true
-    worldgen-harvestcraft-PamBeeGenerator: true
-    worldgen-BattleTowers-WorldGenHandler: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-Natura-BaseTreeWorldgen: true
     worldgen-ExtrabiomesXL-OilGenerator: true
-    worldgen-IC2-IC2: true
-    worldgen-Natura-BaseCropWorldgen: true
-    worldgen-witchery-WitcheryWorldGenerator: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-GalaxySpace-OverworldGenerator: true
-    worldgen-ProjectZuluCore-FeatureGenerator: true
-    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-Natura-BaseTreeWorldgen: true
     worldgen-meteors-MeteorsMod: true
-    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
-    worldgen-ExtrabiomesXL-LeafPileGenerator: true
-    worldgen-magicalcrops-WorldGenEssenceEnd: true
-    worldgen-ExtrabiomesXL-EelGrassGenerator: true
-    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-magicalcrops-WorldGenEssenceNether: true
-    worldgen-kloudspacekloudgear-BaseHexGen: true
-    worldgen-ExtrabiomesXL-QuicksandGenerator: true
-    worldgen-ExtrabiomesXL-FlowerGenerator: true
-    worldgen-ExtrabiomesXL-MountainDesertGenerator: true
-    worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
-    worldgen-DraconicEvolution-DraconicWorldGenerator: true
-    worldgen-ExtrabiomesXL-VineGenerator: true
-    worldgen-chococraft-WorldGenGysahls: true
-    worldgen-harvestcraft-WorldGenPamSalt: true
     worldgen-arsmagica2-AM2WorldDecorator: true
-    worldgen-harvestcraft-PamTreeGenerator: true
+    worldgen-ExtrabiomesXL-MountainDesertGenerator: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
+    worldgen-ExtrabiomesXL-QuicksandGenerator: true
+    worldgen-BattleTowers-WorldGenHandler: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-necromancy-WorldGenerator: true
     worldgen-ASRuins-RuinsWorldGenerator: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-ExtrabiomesXL-LegendOakGenerator: true
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-magicalcrops-WorldGenEssence: true
-    worldgen-hexxitgear-HGWorldGen: true
+    worldgen-ExtrabiomesXL-FlowerGenerator: true
+    worldgen-harvestcraft-PamTreeGenerator: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-ProjectZuluCore-FeatureGenerator: true
+    worldgen-IC2-IC2: true
+    worldgen-SoMuchArmor-TitaniumOreWG: true
     worldgen-GalacticraftCore-OverworldGenerator: true
+    worldgen-magicalcrops-WorldGenEssence: true
+    worldgen-ExtrabiomesXL-LeafPileGenerator: true
+    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
+    worldgen-magicalcrops-WorldGenEssenceEnd: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-ExtrabiomesXL-VineGenerator: true
+    worldgen-harvestcraft-PamGardenGenerator: true
+    worldgen-ExtrabiomesXL-EelGrassGenerator: true
+    worldgen-kloudspacekloudgear-BaseHexGen: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-ExtrabiomesXL-CatTailGenerator: true
+    worldgen-witchery-WitcheryWorldGenerator: true
+    worldgen-harvestcraft-WorldGenPamSalt: true
+    worldgen-magicalcrops-WorldGenEssenceNether: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-DraconicEvolution-DraconicWorldGenerator: true
+    worldgen-chococraft-WorldGenGysahls: true
+    worldgen-harvestcraft-PamBeeGenerator: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-ExtrabiomesXL-LegendOakGenerator: true
+    worldgen-chocolateQuest-WorldGeneratorNew: true
+    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-GalaxySpace-OverworldGenerator: true
+    worldgen-hexxitgear-HGWorldGen: true
   max-players-visible: -1
 plugin-settings:
   default:
@@ -178,10 +179,6 @@ world-environment-settings:
   orbit:
     keep-world-loaded: false
     enabled: true
-  marsss:
-    keep-world-loaded: false
-  venusss:
-    keep-world-loaded: false
   dreamworld:
     keep-world-loaded: false
     enabled: true
@@ -194,6 +191,16 @@ world-environment-settings:
   asteroids:
     keep-world-loaded: false
     enabled: true
+  mars:
+    keep-world-loaded: false
+    enabled: true
+  moon:
+    keep-world-loaded: false
+    enabled: true
+  marsss:
+    keep-world-loaded: false
+  venusss:
+    keep-world-loaded: false
   barnardac:
     keep-world-loaded: false
     enabled: true
@@ -216,9 +223,6 @@ world-environment-settings:
     keep-world-loaded: false
     enabled: true
   makemake:
-    keep-world-loaded: false
-    enabled: true
-  mars:
     keep-world-loaded: false
     enabled: true
   mercury:
@@ -255,9 +259,6 @@ world-environment-settings:
     keep-world-loaded: false
     enabled: true
   miranda:
-    keep-world-loaded: false
-    enabled: true
-  moon:
     keep-world-loaded: false
     enabled: true
   oberon:

@@ -22,25 +22,43 @@ debug:
 config-version: 1
 world-settings:
   default:
-    thaumcraft-common-tiles-TileNode:
+    net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityChest:
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileNode:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityFurnace:
       tick-no-players: false
       tick-interval: 1
-    com-chocolate-chocolateQuest-block-BlockMobSpawnerTileEntity:
+    thaumcraft-common-tiles-TileEldritchAltar:
       tick-no-players: false
       tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
+    thaumcraft-common-tiles-TileEldritchObelisk:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockMobSpawnerTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityBrewingStand:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockAltarTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-chocolate-chocolateQuest-block-BlockArmorStandTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-stek101-projectzulu-common-blocks-tombstone-TileEntityTombstone:
       tick-no-players: false
       tick-interval: 1
     net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
@@ -62,12 +80,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     vazkii-botania-common-block-tile-TileSpecialFlower:
-      tick-no-players: false
-      tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchAltar:
-      tick-no-players: false
-      tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchObelisk:
       tick-no-players: false
       tick-interval: 1
     tconstruct-smeltery-logic-CastingTableLogic:
@@ -169,9 +181,6 @@ world-settings:
     net-minecraft-tileentity-TileEntityEnderChest:
       tick-no-players: false
       tick-interval: 1
-    com-chocolate-chocolateQuest-block-BlockAltarTileEntity:
-      tick-no-players: false
-      tick-interval: 1
     crazypants-enderio-machine-capbank-TileCapBank:
       tick-no-players: false
       tick-interval: 1
@@ -254,9 +263,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-emoniph-witchery-blocks-BlockKettleTileEntityKettle:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityBrewingStand:
       tick-no-players: false
       tick-interval: 1
     exnihilo-blocks-tileentities-TileEntityLeavesInfested:
@@ -727,9 +733,6 @@ world-settings:
     cpw-mods-ironchest-TileEntityObsidianChest:
       tick-no-players: false
       tick-interval: 1
-    com-chocolate-chocolateQuest-block-BlockArmorStandTileEntity:
-      tick-no-players: false
-      tick-interval: 1
     twilightforest-tileentity-TileEntityTFCicada:
       tick-no-players: false
       tick-interval: 1
@@ -773,9 +776,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     powercrystals-minefactoryreloaded-tile-machine-TileEntitySludgeBoiler:
-      tick-no-players: false
-      tick-interval: 1
-    com-stek101-projectzulu-common-blocks-tombstone-TileEntityTombstone:
       tick-no-players: false
       tick-interval: 1
     chanceCubes-tileentities-TileGiantCube:

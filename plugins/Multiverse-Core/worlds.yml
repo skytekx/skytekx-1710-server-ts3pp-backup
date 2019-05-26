@@ -43,7 +43,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: OUTER
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -91,7 +91,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: SkyStoneGen
     playerLimit: '-1'
     allowFlight: 'true'
@@ -139,7 +139,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: ENDOFTIME
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -187,7 +187,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: UNDERDARK
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -235,7 +235,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: DREAMWORLD
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -283,7 +283,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -331,55 +331,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: MIRROR
-    seed: '-5636179890991903708'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
-  DIM-38:
-    ==: MVWorld
-    hidden: 'false'
-    alias: ''
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: NORMAL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-      currency: '-1'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 9.5
-      y: 16.0
-      z: 8.5
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: TORMENT
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -427,18 +379,18 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: AETHER
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  DIM-1:
+  DIM-38:
     ==: MVWorld
     hidden: 'false'
     alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '8.0'
+    scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: NORMAL
@@ -466,16 +418,16 @@ worlds:
     keepSpawnInMemory: 'false'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -3.5
-      y: 68.0
-      z: -2.5
+      x: 9.5
+      y: 16.0
+      z: 8.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NETHER
-    seed: '-5636179890991903708'
+    environment: TORMENT
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -523,7 +475,55 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: DUNGEONS
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  DIM-1:
+    ==: MVWorld
+    hidden: 'false'
+    alias: ''
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '8.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: NORMAL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'false'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: -3.5
+      y: 68.0
+      z: -2.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NETHER
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -571,7 +571,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: TWILIGHTFOREST
-    seed: '-5636179890991903708'
+    seed: '6811979052176649285'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
